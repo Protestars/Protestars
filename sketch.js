@@ -46,6 +46,7 @@ function suonaurla3() {
 }
 
 function suonaurla4() {
+  console.log("qui");
   audio[4].play();
   audio[4].onended(suonaurla);
 }
