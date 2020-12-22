@@ -9,7 +9,7 @@
     <meta itemprop="description" content="made with cables">
     <meta itemprop="image" content="screenshot.png">
     <meta name="description" content="made with cables" />
-    <link rel="icon" type="image/pgn" href="assets/Icona-piattaforma.png">
+    <link rel="icon" type="image/png" href="assets/Logo.png">
 
     <script src="p5.min.js"></script>
     <script src="p5.sound.min.js"></script>
@@ -52,7 +52,7 @@
 
 <body>
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
-    <footer style="color: #fffcfd;">
+    <footer style="color:white;">
         made with <a href='https://cables.gl'>cables</a>
         <!-- we would greatly appreciate if you link cables somewhere on your site! and tell us your website! thanks <3 :) -->
     </footer>
@@ -62,15 +62,6 @@
     <corelibs/>
 
     <script>
-        /**
-         * Called when there was a cables error.
-         * @param {string} errId - ID of the error, e.g. 'NO_WEBGL' or 'NO_WEBAUDIO'
-         *                         when the browser does not support the used APIs
-         * @param {string} errMsg - The error message
-         */
-        function showError(errId, errMsg) {
-            alert('An error occured: ' + errId + ', ' + errMsg);
-        }
 
         function patchInitialized(patch) {
             // You can now access the patch object (patch), register variable watchers and so on
@@ -86,14 +77,11 @@
                 prefixAssetPath: '',
                 glCanvasId: 'glcanvas',
                 glCanvasResizeToWindow: true,
-                onError: showError,
                 onPatchLoaded: patchInitialized,
                 onFinishedLoading: patchFinishedLoading,
             });
         });
-
     </script>
-
 </body>
 
 </html>
