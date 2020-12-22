@@ -1,5 +1,9 @@
 p {
   font-family: "Poppins", sans-serif;
+  color: white;
+  font-size:30px;
+  font-variant: small-caps;
+  text-align: center;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -37,6 +41,19 @@ p {
    background: #ddd;
    color: black;
  }
+
+ iframe:focus {
+  outline: none;
+}
+
+iframe[seamless] {
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
 
  #logo {
    transform: scale(0.5, 0.5);
