@@ -5,7 +5,7 @@ var premuto = false;
 function preload(){
   // put preload code here
   soundFormats('mp3','ogg');
-    for (i=1; i<4; i++) {
+    for (i=1; i<5; i++) {
     audio[i] = loadSound('suoni/audio' + i + '.mp3');
   }
 }
@@ -42,7 +42,7 @@ function suonaurla2() {
 
 function suonaurla3() {
   audio[3].play();
-  audio[3].onended(suonaurla);
+  audio[3].onended(suonaurla4);
 }
 
 function suonaurla4() {
