@@ -23,10 +23,10 @@ function draw() {
 
 function mousePressed() {
 
- if (premuto == vero) {
+ if (premuto == false) {
    suonaurla();
  }
-  premuto = vero;
+  premuto = true;
 }
 
 function suonaurla(){
