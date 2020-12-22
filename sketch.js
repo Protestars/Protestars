@@ -42,7 +42,7 @@ function suonaurla2() {
 
 function suonaurla3() {
   audio[3].play();
-  audio[3].onended(suonaurla);
+  audio[3].onended(suonaurla4);
 }
 
 function suonaurla4() {
