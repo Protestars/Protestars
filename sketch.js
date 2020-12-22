@@ -1,5 +1,6 @@
 let audio=[];
 let j=1;
+var premuto = false;
 
 function preload(){
   // put preload code here
@@ -21,8 +22,11 @@ function draw() {
 }
 
 function mousePressed() {
-suonaurla();
 
+ if (premuto == false) {
+   suonaurla();
+ }
+  premuto = true;
 }
 
 function suonaurla(){
