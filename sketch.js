@@ -45,6 +45,11 @@ function suonaurla3() {
   audio[3].onended(suonaurla);
 }
 
+function suonaurla4() {
+  audio[4].play();
+  audio[4].onended(suonaurla);
+}
+
 
 
 //   // for (j=1; j<4; j++){
