@@ -11,8 +11,43 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+@font-face {
+  font-family: Proxima Nova;
+  src: url(assets_aboutus/ProximaNova-Regular.otf);
+}
+
+@font-face {
+ font-family: Monarch;
+ src: url(assets_aboutus/Monarch_c_Jacob_Wise.otf);
+}
+
 #logo {
   margin: auto;
+  height: auto;
+}
+
+#about_us {
+  font-size: 25px;
+  display: block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+  float: left;
+}
+
+/* visited link */
+#about_us:visited {
+  color: #7b7ab8;
+}
+
+/* mouse over link */
+#about_us:hover {
+  color: #fffcfd;
+}
+
+/* selected link */
+#about_us:active {
+  color: #fffcfd;
 }
 
 #credits {
@@ -34,4 +69,18 @@
 
 #credits a:active {
   color: #7b7ab8;
+}
+
+/* for mobile */
+
+@media (max-width: 600px){
+
+  .col-m-1 {width: 12.5%;}
+  .col-m-2 {width: 25%;}
+  .col-m-3 {width: 37.5%;}
+  .col-m-4 {width: 50%;}
+  .col-m-5 {width: 62.5%;}
+  .col-m-6 {width: 75%;}
+  .col-m-7 {width: 87.5%;}
+  .col-m-8 {width: 100%;}
 }
