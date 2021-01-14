@@ -22,7 +22,6 @@
             display: block;
             position: absolute;
             outline:0;
-            z-index: +1;
         }
 
         footer {
@@ -42,30 +41,12 @@
         footer a:active {
             color: #24baa7;
         }
-
-        #myVideo {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: -1;
-        }
-
     </style>
 
 </head>
 
 <body>
-
-
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
-
-    <!-- The video -->
-      <video autoplay muted loop id="myVideo">
-        <source src="assets/sfondo platform.mp4" type="video/mp4">
-      </video>
-      
     <footer>
         made with <a href='https://cables.gl'>cables</a>
         <!-- we would greatly appreciate if you link cables somewhere on your site! and tell us your website! thanks <3 :) -->
@@ -93,10 +74,6 @@
                 glCanvasResizeToWindow: true,
                 onPatchLoaded: patchInitialized,
                 onFinishedLoading: patchFinishedLoading,
-                canvas:{
-                    alpha:true,
-                    premultipliedAlpha:true,
-                }
             });
         });
     </script>
