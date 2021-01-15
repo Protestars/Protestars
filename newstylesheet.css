@@ -33,6 +33,7 @@
 #logo {
   margin: auto;
   height: auto;
+  display: block;
 }
 
 #about_us {
