@@ -81,6 +81,10 @@
   color: #7b7ab8;
 }
 
+p {
+  display: none;
+}
+
 /* for mobile */
 
 @media (max-width: 600px){
@@ -93,4 +97,8 @@
   .col-m-6 {width: 75%;}
   .col-m-7 {width: 87.5%;}
   .col-m-8 {width: 100%;}
+
+  p {
+    display: inline;
+  }
 }
