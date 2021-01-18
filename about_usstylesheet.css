@@ -1,0 +1,302 @@
+@font-face {
+  font-family: Proxima Nova;
+  src: url(assets_aboutus/ProximaNova-Regular.otf);
+}
+
+@font-face {
+ font-family: Monarch;
+ src: url(assets_aboutus/Monarch_c_Jacob_Wise.otf);
+}
+
+p {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+h1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  color: #fffcfd;
+  margin-left: 30px;
+}
+
+footer p {
+  color: #7b7ab8;
+  text-align: center;
+}
+
+a {
+  font-family: "Proxima Nova", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.testo {
+  color: #fffcfd;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 80px;
+}
+
+#segnapostovideo {
+  background-color: black;
+  width: 768px;
+  height: 432px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#home {
+  font-size:25px;
+  margin-top: 15px;
+  background-color: black;
+  margin-left: 15px;
+  display:inline-block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/* visited link */
+#home:visited {
+  color: #7b7ab8;
+}
+
+/* mouse over link */
+#home:hover {
+  color: #fffcfd;
+}
+
+/* selected link */
+#home:active {
+  color: #fffcfd;
+}
+
+.header {
+  margin:auto;
+  width:25%;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   z-index: -1;
+ }
+
+ #logo {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin: auto;
+ }
+
+ .footer {
+   background-color: #f1f1f1;
+   width:100%;
+   height: 100px;
+   border: 0px;
+   position:relative;
+   text-align: center;
+ }
+
+ .footer2 {
+   text-align: center;
+   height: 120px;
+   background-color: #f1f1f1;
+ }
+
+footer ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 35%;
+  text-align: center;
+}
+
+footer li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0 0;
+}
+
+footer .link {
+  color: #7b7ab8;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 10px 5px;
+  position: relative;
+}
+
+footer .link:hover {
+  font-family: "Monarch";
+  font-size: 14px;
+}
+
+footer .link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #7b7ab8;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+footer .link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+#followus .link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.stellina {
+  vertical-align: middle;
+}
+
+.social-wrapper {
+  display: none;
+  text-align: center;
+  margin:auto;
+  position: relative;
+  padding: 3px;
+  z-index: +1;
+}
+
+.iconesocial {
+ margin: auto;
+ padding: 3px;
+ opacity: 0.5;
+
+}
+
+.iconesocial:hover {
+  opacity: 1 !important;
+  z-index: +3;
+}
+
+
+#followus:hover .social-wrapper {
+  display: block;
+}
+
+
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.5s ease 0s both;
+	        animation: slide-in-top 0.5s ease 0s both;
+
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+
+#home {
+  font-size:15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  display:block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#logo {
+    width: 70%;
+    margin: auto;
+  }
+
+h1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #fffcfd;
+  margin-left: 30px;
+}
+
+.testo {
+    color: #fffcfd;
+    width: 70%;
+    margin:auto;
+    margin-bottom: 20px;
+  }
+
+#segnapostovideo {
+  background-color: black;
+  width: 320px;
+  height: 180px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.social-wrapper {
+  display: block;
+  padding: 6px;
+  opacity: 1;
+}
+
+.stellina {
+  display:none;
+}
+
+footer ul {
+  width: 100%;
+}
+
+footer li {
+display: inline-block;
+width: 100%;
+}
+
+footer .link {
+ font-family: "Monarch";
+}
+
+.footer {
+  background-color: #f1f1f1;
+  width:100%;
+  height: auto;
+  border: 0px;
+  position:relative;
+  text-align: center;
+}
+
+
+}
