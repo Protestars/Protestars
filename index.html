@@ -44,11 +44,43 @@
         footer a:active {
             color: #24baa7;
         }
+
+        #soundonoff {
+          margin-top: 12px;
+          margin-right: 50px;
+          padding-left: 9px;
+          float: right;
+          display:inline-block;
+          color: #7b7ab8;
+          transition: 0.5s;
+          text-decoration: none;
+          z-index: 9999;
+        }
+
+        /* visited link */
+        #soundonoff:visited {
+          color: #7b7ab8;
+        }
+
+        /* mouse over link */
+        #soundonoff:hover {
+          color: #fffcfd;
+        }
+
+        /* selected link */
+        #soundonoff:active {
+          color: #fffcfd;
+        }
+        }
     </style>
 
 </head>
 
 <body>
+
+  <a href="https://protestars.github.io/Protestars/" id="soundonoff">
+    SOUND ON
+  </a>
 
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
 
