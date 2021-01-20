@@ -51,7 +51,7 @@
           padding-left: 9px;
           font-size: 18px;
           float: right;
-          display: inline-block;
+          display: none;
           color: #928eba;
           transition: 0.5s;
           text-decoration: none;
@@ -113,6 +113,7 @@
 
         function patchFinishedLoading(patch) {
             // The patch is ready now, all assets have been loaded
+            document.getElementById("soundonoff").style.display = "inline-block";
         }
 
         document.addEventListener('CABLES.jsLoaded', function (event) {
