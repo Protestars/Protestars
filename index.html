@@ -78,7 +78,19 @@
          color: transparent;
         }
 
-        }
+        /* #logo {
+        width: 55%;
+        height: auto;
+        display: none;
+            }
+
+        div {
+          position:fixed;
+          bottom: 50px;
+          left: 55px;
+          }
+
+        } */
     </style>
 
 </head>
@@ -88,6 +100,10 @@
   <a href="https://protestars.github.io/Protestars/" id="soundonoff" class="blurry-text">
     SOUND ON
   </a>
+
+  <!-- <div>
+    <img id="logo" src="assets_aboutus/logo.png"></img>
+  </div> -->
 
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
 
@@ -114,6 +130,7 @@
         function patchFinishedLoading(patch) {
             // The patch is ready now, all assets have been loaded
             document.getElementById("soundonoff").style.display = "inline-block";
+            // document.getElementById("logo").style.display = "inline-block";
         }
 
         document.addEventListener('CABLES.jsLoaded', function (event) {
