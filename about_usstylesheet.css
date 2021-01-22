@@ -4,15 +4,22 @@
 }
 
 @font-face {
+  font-family: Proxima NovaBold;
+  src: url(assets_aboutus/Proxima Nova Bold.otf);
+}
+
+@font-face {
  font-family: Monarch;
  src: url(assets_aboutus/Monarch_c_Jacob_Wise.otf);
 }
 
 p {
   font-family: "Proxima Nova", sans-serif;
+  font-kerning: normal;
 }
 
 h1 {
+  text-align: center;
   font-family: "Proxima Nova", sans-serif;
   font-size: 40px;
   color: #fffcfd;
@@ -32,13 +39,19 @@ a {
 body {
   margin: 0;
   padding: 0;
+  background-color: #e7c9e2;
 }
 
 .testo {
   color: #fffcfd;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 80px;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.parent {
+  text-align: center;
 }
 
 #segnapostovideo {
@@ -49,10 +62,30 @@ body {
   margin-bottom: 30px;
 }
 
+#segnapostoimg {
+  margin-top: 25px;
+  width: 100%;
+  height:500px;
+  background-color: black;
+}
+
 #home {
-  margin-top: 14px;
-  margin-left: 14px;
-  padding-left: 9px;
+  float:left;
+  margin-top: 16px;
+  margin-left: 21px;
+  display: inline-block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#linkadx {
+  transform-origin: top-right;
+  margin-top: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-right: 21px;
+  float: right;
   display:inline-block;
   color: #7b7ab8;
   transition: 0.5s;
@@ -60,23 +93,54 @@ body {
 }
 
 /* visited link */
-#home:visited {
+#home:visited, #shop:visited {
   color: #7b7ab8;
 }
 
 /* mouse over link */
-#home:hover {
+#home:hover, #shop:hover {
   color: #fffcfd;
 }
 
 /* selected link */
-#home:active {
+#home:active, #shop:hover {
+  color: #fffcfd;
+}
+
+.blurry-text {
+   text-shadow: 0 0 2px white;
+   color: transparent;
+}
+
+#soundonoff {
+  margin-top: 0px;
+  margin-right: 50px;
+  padding-left: 9px;
+  float: right;
+  display:inline-block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/* visited link */
+#soundonoff:visited {
+  color: #7b7ab8;
+}
+
+/* mouse over link */
+#soundonoff:hover {
+  color: #fffcfd;
+}
+
+/* selected link */
+#soundonoff:active {
   color: #fffcfd;
 }
 
 .header {
   margin:auto;
-  width:25%;
+  width: 25%;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -90,10 +154,12 @@ body {
  }
 
  #logo {
-  width: 35%;
+  width: 20%;
   height: auto;
-  display: block;
-  margin: auto;
+  display: inline-block;
+
+  margin-top: 16px;
+  padding-top: 0px;
  }
 
  .footer {
@@ -111,12 +177,20 @@ body {
    background-color: #f1f1f1;
  }
 
+ .footer2 p {
+   font-size: 1rem;
+ }
+
+ .bold {
+   font-family: "Proxima NovaBold", sans-serif;
+ }
+
 footer ul {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   display: table;
-  width: 35%;
+  width: 20%;
   text-align: center;
 }
 
@@ -226,13 +300,185 @@ footer .link:hover:after {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #7b7ab8;
+  display: inline-block;
+  z-index: 9999;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 50px 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 32%; /* IE10 */
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+div {
+  font-family: "Proxima Nova";
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-size: 2rem;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+.top-left:hover {
+  font-family: "Monarch";
+  margin-top: 5px;
+}
+
+.top-left:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 36px;
+  background: #fffcfd;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+.top-left:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.descrizione_prodotto {
+  position: absolute;
+  top: 60px;
+  left: 17px;
+  font-size: 1rem;
+  font-family: "Proxima Nova";
+}
+
+.prezzo {
+  background-color: #fffcfd;
+  color: #7b7ab8;
+  width: 100%;
+  text-align: center;
+  font-family: "Proxima Nova";
+  line-height: 4em;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-bottom: 42px;
+  font-size: 1rem;
+}
+
+.prezzo:hover {
+  background-color: #fce6d5;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.container .top {
+  position: absolute;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.container img.top:hover {
+  opacity:0;
+}
+
+.prezzop {
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin: auto;
+}
+
 @media (max-width: 480px) {
 
 #home {
-  font-size:15px;
+  font-size: 15px;
   margin-top: 10px;
   margin-left: 15px;
-  display:block;
+  display: inline-block;
+  color: #7b7ab8;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#shop {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+  float: right;
+  display: inline-block;
   color: #7b7ab8;
   transition: 0.5s;
   text-decoration: none;
@@ -240,6 +486,7 @@ footer .link:hover:after {
 
 #logo {
     width: 70%;
+    height:auto;
     margin: auto;
   }
 
@@ -249,13 +496,6 @@ h1 {
   color: #fffcfd;
   margin-left: 30px;
 }
-
-.testo {
-    color: #fffcfd;
-    width: 70%;
-    margin:auto;
-    margin-bottom: 20px;
-  }
 
 #segnapostovideo {
   background-color: black;
