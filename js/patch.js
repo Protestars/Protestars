@@ -14614,7 +14614,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       }]
     }, {
       name: "URL",
-      value: "https://protestars.github.io/Protestars/About_us.html"
+      value: "https://protestars.github.io/Protestars/shop.html"
     }, {
       name: "Target Name",
       value: "_self"
