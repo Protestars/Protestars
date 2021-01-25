@@ -93,17 +93,17 @@ body {
 }
 
 /* visited link */
-#home:visited, #shop:visited {
+#home:visited, #linkadx:visited {
   color: #7b7ab8;
 }
 
 /* mouse over link */
-#home:hover, #shop:hover {
+#home:hover, #linkadx:hover {
   color: #fffcfd;
 }
 
 /* selected link */
-#home:active, #shop:hover {
+#home:active, #linkadx:hover {
   color: #fffcfd;
 }
 
