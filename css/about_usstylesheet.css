@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: Proxima NovaBold;
-  src: url(assets_aboutus/Proxima Nova Bold.otf);
+  src: url(../assets_aboutus/Proxima Nova Bold.otf);
 }
 
 @font-face {
  font-family: Monarch;
- src: url(assets_aboutus/Monarch_c_Jacob_Wise.otf);
+ src: url(../assets_aboutus/Monarch_c_Jacob_Wise.otf);
 }
 
 p {
