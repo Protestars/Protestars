@@ -78,6 +78,11 @@
          color: transparent;
         }
 
+        .blurry-text:hover {
+         text-shadow: 0 0 1px #fffcfd;
+         color: transparent;
+        }
+
         /* #logo {
         width: 55%;
         height: auto;
@@ -97,9 +102,9 @@
 
 <body>
 
-  <a href="" id="soundonoff" class="blurry-text">
+  <p id="soundonoff" class="blurry-text" onclick="myFunction()" onclick="suonaurla()">
     SOUND ON
-  </a>
+  </p>
 
   <!-- <div>
     <img id="logo" src="assets_aboutus/logo.png"></img>
@@ -147,6 +152,16 @@
                 }
             });
         });
+
+        function myFunction() {
+        var x = document.getElementById("soundonoff");
+        if (x.innerHTML === "SOUND ON") {
+          x.innerHTML = "SOUND OFF";
+        } else {
+          x.innerHTML = "SOUND ON";
+        }
+        }
+
     </script>
 </body>
 

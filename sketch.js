@@ -1,72 +1,99 @@
 let audio=[];
-let j=1;
-var premuto = false;
+let audioArrayLength = 40;
+let currentAudioIndex = 1;
+
+let i = 1;
+let volume_audio = 0.5;
+let start = false;
+let primoclick = true;
 
 function preload(){
-  // put preload code here
-  soundFormats('mp3','ogg');
-    for (i=1; i<5; i++) {
-    audio[i] = loadSound('suoni/audio' + i + '.mp3');
-  }
+
 }
 
 function setup() {
-  //createCanvas(windowWidth,windowHeight)
+  soundFormats('mp3','ogg', 'wav');
+  loadAudioTracks(currentAudioIndex);
 
+  paragraph = select('#soundonoff');
+
+  // paragraph.mousePressed(cambiaVolume);
+  // paragraph.mousePressed(suonaurla);
+  // paragraph.mousePressed(solounavolta);
+  paragraph.mousePressed(funzioniunite);
+
+  // button = createButton("play");
+  // button.mousePressed(cambiaVolume);
 }
 
 function draw() {
   // put drawing code here
-  // setTimeout(suonaurla, 5000);
 
 }
 
-function mousePressed() {
-
- if (premuto == false) {
-   suonaurla();
- }
-  premuto = true;
+function funzioniunite(){
+  solounavolta();
+  cambiaVolume();
 }
+
+function solounavolta(){
+  if (start == false){
+    suonaurla();
+    // console.log("entri in solounavolta");
+  }
+  start = true;
+}
+
 
 function suonaurla(){
+if (start == false){
+  start = true;
+  volume_audio = 1;
+}
+setVolume();
+audio[i].play();
+audio[i].onended(aumentai);
 
-audio[1].play();
-audio[1].onended(suonaurla2);
 }
 
-function suonaurla2() {
-  audio[2].play();
-  audio[2].onended(suonaurla3);
+function aumentai(){
+  if (i<(currentAudioIndex-1)){
+    i++;
+  } else if (i = (currentAudioIndex-1)){
+    i = 1;
+  }
+  suonaurla();
 }
 
-function suonaurla3() {
-  audio[3].play();
-  audio[3].onended(suonaurla4);
+function cambiaVolume(){
+if (volume_audio == 1 && start == true && primoclick == false){
+  volume_audio = 0;
+  console.log(volume_audio);
+} else if (volume_audio == 0 && start == true && primoclick == false){
+  volume_audio = 1;
+  console.log(volume_audio);
+}
+primoclick = false;
+setVolume();
 }
 
-function suonaurla4() {
-  console.log("qui");
-  audio[4].play();
-  audio[4].onended(suonaurla);
+function setVolume(){
+  audio[i].setVolume(volume_audio);
 }
 
+function loadAudioTracks (index) {
+  audio[index] = loadSound('suoni/audio' + index, audioCaricato, audioNonTrovato);
+}
 
+function audioCaricato () {
+  console.log(`file ${currentAudioIndex} trovato!`)
+  if (currentAudioIndex < audioArrayLength) {
+    currentAudioIndex++;
+    loadAudioTracks(currentAudioIndex);
+  }
+}
 
-//   // for (j=1; j<4; j++){
-//   //   if (j<4){
-//   //     urla[j].play();
-//   //   }
-//   // }
-//   // if (j===4){
-//   //   j=0;
-//   // }
-//
-//   //   if (j<4) {
-//   //   urla[j].play();
-//   //   j++;
-//   // } else if (j===4){
-//   //   j=0;
-//   // }
-//
-// }
+function audioNonTrovato () {
+  console.log('tutti gli audio sono stati caricati, ciao')
+  audio.pop();
+}
