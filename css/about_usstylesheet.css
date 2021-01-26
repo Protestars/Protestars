@@ -13,6 +13,10 @@
  src: url(../assets_aboutus/Monarch_c_Jacob_Wise.otf);
 }
 
+body {
+  background-color: #e7c9e2;
+}
+
 p {
   font-family: "Proxima Nova", sans-serif;
   font-kerning: normal;
