@@ -8647,10 +8647,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Pointer X",
-      value: .704638759258474
+      value: .9730725723093212
     }, {
       name: "Pointer Y",
-      value: 1
+      value: .5714286857721451
     }, {
       name: "Top",
       value: 11.869986772537231
@@ -8995,10 +8995,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "x",
-      value: 16
+      value: 43
     }, {
       name: "y",
-      value: 69
+      value: 224
     }, {
       name: "button down"
     }, {
@@ -9470,7 +9470,8 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }, {
       name: "geometry"
     }, {
-      name: "Pointer Hover"
+      name: "Pointer Hover",
+      value: !1
     }, {
       name: "Pointer Down",
       value: !1
@@ -9631,28 +9632,13 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 0
     }, {
       name: "r",
-      links: [{
-        portIn: "r",
-        portOut: "value",
-        objIn: "d3bee889-2774-42b9-9cd0-e66c5dd4a5fd",
-        objOut: "87d60379-5b24-4768-bfc3-199ca5de357f"
-      }]
+      value: .4823529411764706
     }, {
       name: "g",
-      links: [{
-        portIn: "g",
-        portOut: "value",
-        objIn: "d3bee889-2774-42b9-9cd0-e66c5dd4a5fd",
-        objOut: "43870c83-16c6-4e48-be8d-634abe218d6c"
-      }]
+      value: .47843137254901963
     }, {
       name: "b",
-      links: [{
-        portIn: "b",
-        portOut: "value",
-        objIn: "d3bee889-2774-42b9-9cd0-e66c5dd4a5fd",
-        objOut: "d9e0bd9e-f8ae-4dc6-ab04-cfbcc24cfc51"
-      }]
+      value: .7215686274509804
     }, {
       name: "a",
       value: 1
@@ -9701,174 +9687,6 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }, {
       name: "Visible",
       value: !0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "87d60379-5b24-4768-bfc3-199ca5de357f",
-    uiAttribs: {
-      subPatch: "c1285eb7-5b48-4b34-b0fe-298cbfd77a72",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "87d60379-5b24-4768-bfc3-199ca5de357f",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "87d60379-5b24-4768-bfc3-199ca5de357f",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .4823529411764706
-    }, {
-      name: "value true",
-      value: 1
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "43870c83-16c6-4e48-be8d-634abe218d6c",
-    uiAttribs: {
-      subPatch: "c1285eb7-5b48-4b34-b0fe-298cbfd77a72",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "43870c83-16c6-4e48-be8d-634abe218d6c",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "43870c83-16c6-4e48-be8d-634abe218d6c",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .47843137254901963
-    }, {
-      name: "value true",
-      value: .9882352941176471
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "d9e0bd9e-f8ae-4dc6-ab04-cfbcc24cfc51",
-    uiAttribs: {
-      subPatch: "c1285eb7-5b48-4b34-b0fe-298cbfd77a72",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "d9e0bd9e-f8ae-4dc6-ab04-cfbcc24cfc51",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "d9e0bd9e-f8ae-4dc6-ab04-cfbcc24cfc51",
-        objOut: "75a4dfe2-2965-4120-be0e-c5a7a838384e"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .7215686274509804
-    }, {
-      name: "value true",
-      value: .992
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
     }]
   }, {
     opId: "a4ffe852-d200-4b96-9347-68feb01122ca",
@@ -15018,10 +14836,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Pointer X",
-      value: .23487958641949133
+      value: .5368676261016945
     }, {
       name: "Pointer Y",
-      value: .33333351120111476
+      value: .04761930171587814
     }, {
       name: "Top",
       value: 11.869986772537231
@@ -15364,28 +15182,13 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 0
     }, {
       name: "r",
-      links: [{
-        portIn: "r",
-        portOut: "value",
-        objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "18461451-6751-4a03-a3cc-10c43e6944ca"
-      }]
+      value: .4823529411764706
     }, {
       name: "g",
-      links: [{
-        portIn: "g",
-        portOut: "value",
-        objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "22c330af-7983-4835-a15e-a2696994acf1"
-      }]
+      value: .47843137254901963
     }, {
       name: "b",
-      links: [{
-        portIn: "b",
-        portOut: "value",
-        objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "527f3ef2-d38d-42c1-a2b6-dd56508f9078"
-      }]
+      value: .7215686274509804
     }, {
       name: "a",
       value: 1
@@ -15668,7 +15471,8 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }, {
       name: "geometry"
     }, {
-      name: "Pointer Hover"
+      name: "Pointer Hover",
+      value: !1
     }, {
       name: "Pointer Down",
       value: !1
@@ -15827,174 +15631,6 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     portsOut: [{
       name: "result"
     }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "18461451-6751-4a03-a3cc-10c43e6944ca",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "18461451-6751-4a03-a3cc-10c43e6944ca",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "18461451-6751-4a03-a3cc-10c43e6944ca",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .4823529411764706
-    }, {
-      name: "value true",
-      value: 1
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "22c330af-7983-4835-a15e-a2696994acf1",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "22c330af-7983-4835-a15e-a2696994acf1",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "22c330af-7983-4835-a15e-a2696994acf1",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .47843137254901963
-    }, {
-      name: "value true",
-      value: .9882352941176471
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .7215686274509804
-    }, {
-      name: "value true",
-      value: .992
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !1
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
   }],
   users: [],
   userOps: [],
@@ -16004,13 +15640,13 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
   userId: "5fc904e2c7a6b0498cb09a5f",
   created: "2020-12-22T05:13:17.161Z",
   cloneOf: "5fdb4bc97949dc1492c5a2ed",
-  updated: "2021-01-27T15:30:52.942Z",
+  updated: "2021-01-27T16:07:59.831Z",
   log: [{
     _id: "5fe1806dbe1b431d65d22842",
     key: "collabsatcreate",
     text: "initial list of collaborators:"
   }],
-  __v: 151,
+  __v: 155,
   shortId: "EQqT8q",
   buildInfo: {
     core: {
@@ -16042,21 +15678,21 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       }
     }
   },
-  opsHash: "bcd433fa9b379d7018df27db93a736a04800e9e8",
+  opsHash: "af3651e1a66ff18997390f120906d5407448591b",
   ui: {
     viewBox: {
-      x: -405.39392722274124,
-      y: 409.05517992267323,
-      w: 1327.5096310495326,
-      h: 1138.6531207133062
+      x: -2700.5583606780274,
+      y: -64.68358034390894,
+      w: 2678.240740740741,
+      h: 2297.2241452251837
     },
     timeLineLength: 20,
     bookmarks: [],
     subPatchViewBoxes: [{
-      x: 120.7189781528541,
-      y: 267.12244824894697,
-      w: 1504.3810711905523,
-      h: 1290.3621649048766
+      x: -640.953677906103,
+      y: -1151.5319256315574,
+      w: 2597.1338091563794,
+      h: 2227.6557906159596
     }],
     renderer: {
       w: 633,
@@ -16069,17 +15705,17 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
   cachedNumComments: 0,
   cachedNumFavs: 0,
   statsAdmin: {
-    filenameScreenshots: ["_screenshots/screenshot.png", "_screenshots/screenshot.webp", "_screenshots/screenshot_1608614163951.png", "_screenshots/screenshot_1608614311353.png", "_screenshots/screenshot_1608614431627.png", "_screenshots/screenshot_1608614522169.png", "_screenshots/screenshot_1608615876105.png", "_screenshots/screenshot_1609255166389.png", "_screenshots/screenshot_1609255485267.png", "_screenshots/screenshot_1609256719751.png", "_screenshots/screenshot_1609258661532.png", "_screenshots/screenshot_1609266051152.png", "_screenshots/screenshot_1609282750219.png", "_screenshots/screenshot_1609321940683.png", "_screenshots/screenshot_1609340046498.png", "_screenshots/screenshot_1609340057896.png", "_screenshots/screenshot_1609340220443.png", "_screenshots/screenshot_1609340363886.png", "_screenshots/screenshot_1609341237425.png", "_screenshots/screenshot_1609360213440.png", "_screenshots/screenshot_1609410435436.png", "_screenshots/screenshot_1609415759207.png", "_screenshots/screenshot_1609415781130.png", "_screenshots/screenshot_1609587851759.png", "_screenshots/screenshot_1609587916938.png", "_screenshots/screenshot_1609587928998.png", "_screenshots/screenshot_1609587940590.png", "_screenshots/screenshot_1609608817013.png", "_screenshots/screenshot_1609608858667.png", "_screenshots/screenshot_1609608862700.png", "_screenshots/screenshot_1609621882668.png", "_screenshots/screenshot_1609625923799.png", "_screenshots/screenshot_1609629340308.png", "_screenshots/screenshot_1609629447859.png", "_screenshots/screenshot_1609629701397.png", "_screenshots/screenshot_1609629910330.png", "_screenshots/screenshot_1609629985360.png", "_screenshots/screenshot_1609630447114.png", "_screenshots/screenshot_1609967792887.png", "_screenshots/screenshot_1610014844983.png", "_screenshots/screenshot_1610014888827.png", "_screenshots/screenshot_1610014909266.png", "_screenshots/screenshot_1610014934284.png", "_screenshots/screenshot_1610014939607.png", "_screenshots/screenshot_1610015091366.png", "_screenshots/screenshot_1610203981988.png", "_screenshots/screenshot_1610204141071.png", "_screenshots/screenshot_1610204207445.png", "_screenshots/screenshot_1610204214908.png", "_screenshots/screenshot_1610213939911.png", "_screenshots/screenshot_1610214698720.png", "_screenshots/screenshot_1610242887665.png", "_screenshots/screenshot_1610243022359.png", "_screenshots/screenshot_1610243024126.png", "_screenshots/screenshot_1610243099043.png", "_screenshots/screenshot_1610320017329.png", "_screenshots/screenshot_1610320308115.png", "_screenshots/screenshot_1610320759502.png", "_screenshots/screenshot_1610321539002.png", "_screenshots/screenshot_1610321564025.png", "_screenshots/screenshot_1610321907521.png", "_screenshots/screenshot_1610322015746.png", "_screenshots/screenshot_1610322065515.png", "_screenshots/screenshot_1610322130632.png", "_screenshots/screenshot_1610322146631.png", "_screenshots/screenshot_1610322166646.png", "_screenshots/screenshot_1610444693361.png", "_screenshots/screenshot_1610450003408.png", "_screenshots/screenshot_1610450844930.png", "_screenshots/screenshot_1610451165716.png", "_screenshots/screenshot_1610458160838.png", "_screenshots/screenshot_1610459579980.png", "_screenshots/screenshot_1610459810585.png", "_screenshots/screenshot_1610460426820.png", "_screenshots/screenshot_1610460476242.png", "_screenshots/screenshot_1610460819971.png", "_screenshots/screenshot_1610466804515.png", "_screenshots/screenshot_1610531388472.png", "_screenshots/screenshot_1610641905122.png", "_screenshots/screenshot_1610643143667.png", "_screenshots/screenshot_1610643281598.png", "_screenshots/screenshot_1610643342110.png", "_screenshots/screenshot_1610643365993.png", "_screenshots/screenshot_1610644717303.png", "_screenshots/screenshot_1610644725637.png", "_screenshots/screenshot_1610644756670.png", "_screenshots/screenshot_1610656916171.png", "_screenshots/screenshot_1610657037836.png", "_screenshots/screenshot_1610657103387.png", "_screenshots/screenshot_1610657124463.png", "_screenshots/screenshot_1610657173862.png", "_screenshots/screenshot_1610658351413.png", "_screenshots/screenshot_1610658369956.png", "_screenshots/screenshot_1610658769477.png", "_screenshots/screenshot_1610658941151.png", "_screenshots/screenshot_1610704172049.png", "_screenshots/screenshot_1610704324783.png", "_screenshots/screenshot_1610704788137.png", "_screenshots/screenshot_1610709059104.png", "_screenshots/screenshot_1610720678890.png", "_screenshots/screenshot_1610751551192.png", "_screenshots/screenshot_1610890470429.png", "_screenshots/screenshot_1610890808780.png", "_screenshots/screenshot_1610891854812.png", "_screenshots/screenshot_1610893021883.png", "_screenshots/screenshot_1610897909568.png", "_screenshots/screenshot_1610897923379.png", "_screenshots/screenshot_1610898260648.png", "_screenshots/screenshot_1610899077544.png", "_screenshots/screenshot_1610899138864.png", "_screenshots/screenshot_1610899441562.png", "_screenshots/screenshot_1610900515336.png", "_screenshots/screenshot_1610900867381.png", "_screenshots/screenshot_1610900880520.png", "_screenshots/screenshot_1610900909516.png", "_screenshots/screenshot_1610903127502.png", "_screenshots/screenshot_1610903218597.png", "_screenshots/screenshot_1610903422315.png", "_screenshots/screenshot_1610904046664.png", "_screenshots/screenshot_1610905974643.png", "_screenshots/screenshot_1610906005007.png", "_screenshots/screenshot_1610979487203.png", "_screenshots/screenshot_1610979609435.png", "_screenshots/screenshot_1610980570346.png", "_screenshots/screenshot_1610980629918.png", "_screenshots/screenshot_1610980825212.png", "_screenshots/screenshot_1610980830271.png", "_screenshots/screenshot_1610980907973.png", "_screenshots/screenshot_1610980987511.png", "_screenshots/screenshot_1610981092587.png", "_screenshots/screenshot_1610982492078.png", "_screenshots/screenshot_1610982538793.png", "_screenshots/screenshot_1610982654913.png", "_screenshots/screenshot_1610982957084.png", "_screenshots/screenshot_1610983356884.png", "_screenshots/screenshot_1610983381561.png", "_screenshots/screenshot_1610983443865.png", "_screenshots/screenshot_1610984614148.png", "_screenshots/screenshot_1610984674137.png", "_screenshots/screenshot_1610984691113.png", "_screenshots/screenshot_1610988215680.png", "_screenshots/screenshot_1610988261946.png", "_screenshots/screenshot_1610988272357.png", "_screenshots/screenshot_1611009987264.png", "_screenshots/screenshot_1611010020240.png", "_screenshots/screenshot_1611355839587.png", "_screenshots/screenshot_1611715125959.png", "_screenshots/screenshot_1611715140970.png", "_screenshots/screenshot_1611715285976.png", "_screenshots/screenshot_1611715688246.png", "_screenshots/screenshot_1611760648685.png"],
-    filenameExports: ["_exports/cables_Protestars_21.zip", "_exports/cables_Protestars_210.zip", "_exports/cables_Protestars_211.zip", "_exports/cables_Protestars_212.zip", "_exports/cables_Protestars_213.zip", "_exports/cables_Protestars_214.zip", "_exports/cables_Protestars_215.zip", "_exports/cables_Protestars_216.zip", "_exports/cables_Protestars_217.zip", "_exports/cables_Protestars_218.zip", "_exports/cables_Protestars_219.zip", "_exports/cables_Protestars_22.zip", "_exports/cables_Protestars_220.zip", "_exports/cables_Protestars_221.zip", "_exports/cables_Protestars_222.zip", "_exports/cables_Protestars_223.zip", "_exports/cables_Protestars_224.zip", "_exports/cables_Protestars_225.zip", "_exports/cables_Protestars_226.zip", "_exports/cables_Protestars_227.zip", "_exports/cables_Protestars_228.zip", "_exports/cables_Protestars_229.zip", "_exports/cables_Protestars_23.zip", "_exports/cables_Protestars_230.zip", "_exports/cables_Protestars_231.zip", "_exports/cables_Protestars_232.zip", "_exports/cables_Protestars_233.zip", "_exports/cables_Protestars_234.zip", "_exports/cables_Protestars_235.zip", "_exports/cables_Protestars_24.zip", "_exports/cables_Protestars_25.zip", "_exports/cables_Protestars_26.zip", "_exports/cables_Protestars_27.zip", "_exports/cables_Protestars_28.zip", "_exports/cables_Protestars_29.zip"],
+    filenameScreenshots: ["_screenshots/screenshot.png", "_screenshots/screenshot.webp", "_screenshots/screenshot_1608614163951.png", "_screenshots/screenshot_1608614311353.png", "_screenshots/screenshot_1608614431627.png", "_screenshots/screenshot_1608614522169.png", "_screenshots/screenshot_1608615876105.png", "_screenshots/screenshot_1609255166389.png", "_screenshots/screenshot_1609255485267.png", "_screenshots/screenshot_1609256719751.png", "_screenshots/screenshot_1609258661532.png", "_screenshots/screenshot_1609266051152.png", "_screenshots/screenshot_1609282750219.png", "_screenshots/screenshot_1609321940683.png", "_screenshots/screenshot_1609340046498.png", "_screenshots/screenshot_1609340057896.png", "_screenshots/screenshot_1609340220443.png", "_screenshots/screenshot_1609340363886.png", "_screenshots/screenshot_1609341237425.png", "_screenshots/screenshot_1609360213440.png", "_screenshots/screenshot_1609410435436.png", "_screenshots/screenshot_1609415759207.png", "_screenshots/screenshot_1609415781130.png", "_screenshots/screenshot_1609587851759.png", "_screenshots/screenshot_1609587916938.png", "_screenshots/screenshot_1609587928998.png", "_screenshots/screenshot_1609587940590.png", "_screenshots/screenshot_1609608817013.png", "_screenshots/screenshot_1609608858667.png", "_screenshots/screenshot_1609608862700.png", "_screenshots/screenshot_1609621882668.png", "_screenshots/screenshot_1609625923799.png", "_screenshots/screenshot_1609629340308.png", "_screenshots/screenshot_1609629447859.png", "_screenshots/screenshot_1609629701397.png", "_screenshots/screenshot_1609629910330.png", "_screenshots/screenshot_1609629985360.png", "_screenshots/screenshot_1609630447114.png", "_screenshots/screenshot_1609967792887.png", "_screenshots/screenshot_1610014844983.png", "_screenshots/screenshot_1610014888827.png", "_screenshots/screenshot_1610014909266.png", "_screenshots/screenshot_1610014934284.png", "_screenshots/screenshot_1610014939607.png", "_screenshots/screenshot_1610015091366.png", "_screenshots/screenshot_1610203981988.png", "_screenshots/screenshot_1610204141071.png", "_screenshots/screenshot_1610204207445.png", "_screenshots/screenshot_1610204214908.png", "_screenshots/screenshot_1610213939911.png", "_screenshots/screenshot_1610214698720.png", "_screenshots/screenshot_1610242887665.png", "_screenshots/screenshot_1610243022359.png", "_screenshots/screenshot_1610243024126.png", "_screenshots/screenshot_1610243099043.png", "_screenshots/screenshot_1610320017329.png", "_screenshots/screenshot_1610320308115.png", "_screenshots/screenshot_1610320759502.png", "_screenshots/screenshot_1610321539002.png", "_screenshots/screenshot_1610321564025.png", "_screenshots/screenshot_1610321907521.png", "_screenshots/screenshot_1610322015746.png", "_screenshots/screenshot_1610322065515.png", "_screenshots/screenshot_1610322130632.png", "_screenshots/screenshot_1610322146631.png", "_screenshots/screenshot_1610322166646.png", "_screenshots/screenshot_1610444693361.png", "_screenshots/screenshot_1610450003408.png", "_screenshots/screenshot_1610450844930.png", "_screenshots/screenshot_1610451165716.png", "_screenshots/screenshot_1610458160838.png", "_screenshots/screenshot_1610459579980.png", "_screenshots/screenshot_1610459810585.png", "_screenshots/screenshot_1610460426820.png", "_screenshots/screenshot_1610460476242.png", "_screenshots/screenshot_1610460819971.png", "_screenshots/screenshot_1610466804515.png", "_screenshots/screenshot_1610531388472.png", "_screenshots/screenshot_1610641905122.png", "_screenshots/screenshot_1610643143667.png", "_screenshots/screenshot_1610643281598.png", "_screenshots/screenshot_1610643342110.png", "_screenshots/screenshot_1610643365993.png", "_screenshots/screenshot_1610644717303.png", "_screenshots/screenshot_1610644725637.png", "_screenshots/screenshot_1610644756670.png", "_screenshots/screenshot_1610656916171.png", "_screenshots/screenshot_1610657037836.png", "_screenshots/screenshot_1610657103387.png", "_screenshots/screenshot_1610657124463.png", "_screenshots/screenshot_1610657173862.png", "_screenshots/screenshot_1610658351413.png", "_screenshots/screenshot_1610658369956.png", "_screenshots/screenshot_1610658769477.png", "_screenshots/screenshot_1610658941151.png", "_screenshots/screenshot_1610704172049.png", "_screenshots/screenshot_1610704324783.png", "_screenshots/screenshot_1610704788137.png", "_screenshots/screenshot_1610709059104.png", "_screenshots/screenshot_1610720678890.png", "_screenshots/screenshot_1610751551192.png", "_screenshots/screenshot_1610890470429.png", "_screenshots/screenshot_1610890808780.png", "_screenshots/screenshot_1610891854812.png", "_screenshots/screenshot_1610893021883.png", "_screenshots/screenshot_1610897909568.png", "_screenshots/screenshot_1610897923379.png", "_screenshots/screenshot_1610898260648.png", "_screenshots/screenshot_1610899077544.png", "_screenshots/screenshot_1610899138864.png", "_screenshots/screenshot_1610899441562.png", "_screenshots/screenshot_1610900515336.png", "_screenshots/screenshot_1610900867381.png", "_screenshots/screenshot_1610900880520.png", "_screenshots/screenshot_1610900909516.png", "_screenshots/screenshot_1610903127502.png", "_screenshots/screenshot_1610903218597.png", "_screenshots/screenshot_1610903422315.png", "_screenshots/screenshot_1610904046664.png", "_screenshots/screenshot_1610905974643.png", "_screenshots/screenshot_1610906005007.png", "_screenshots/screenshot_1610979487203.png", "_screenshots/screenshot_1610979609435.png", "_screenshots/screenshot_1610980570346.png", "_screenshots/screenshot_1610980629918.png", "_screenshots/screenshot_1610980825212.png", "_screenshots/screenshot_1610980830271.png", "_screenshots/screenshot_1610980907973.png", "_screenshots/screenshot_1610980987511.png", "_screenshots/screenshot_1610981092587.png", "_screenshots/screenshot_1610982492078.png", "_screenshots/screenshot_1610982538793.png", "_screenshots/screenshot_1610982654913.png", "_screenshots/screenshot_1610982957084.png", "_screenshots/screenshot_1610983356884.png", "_screenshots/screenshot_1610983381561.png", "_screenshots/screenshot_1610983443865.png", "_screenshots/screenshot_1610984614148.png", "_screenshots/screenshot_1610984674137.png", "_screenshots/screenshot_1610984691113.png", "_screenshots/screenshot_1610988215680.png", "_screenshots/screenshot_1610988261946.png", "_screenshots/screenshot_1610988272357.png", "_screenshots/screenshot_1611009987264.png", "_screenshots/screenshot_1611010020240.png", "_screenshots/screenshot_1611355839587.png", "_screenshots/screenshot_1611715125959.png", "_screenshots/screenshot_1611715140970.png", "_screenshots/screenshot_1611715285976.png", "_screenshots/screenshot_1611715688246.png", "_screenshots/screenshot_1611760648685.png", "_screenshots/screenshot_1611761408466.png", "_screenshots/screenshot_1611761415024.png", "_screenshots/screenshot_1611761453523.png"],
+    filenameExports: ["_exports/cables_Protestars_21.zip", "_exports/cables_Protestars_210.zip", "_exports/cables_Protestars_211.zip", "_exports/cables_Protestars_212.zip", "_exports/cables_Protestars_213.zip", "_exports/cables_Protestars_214.zip", "_exports/cables_Protestars_215.zip", "_exports/cables_Protestars_216.zip", "_exports/cables_Protestars_217.zip", "_exports/cables_Protestars_218.zip", "_exports/cables_Protestars_219.zip", "_exports/cables_Protestars_22.zip", "_exports/cables_Protestars_220.zip", "_exports/cables_Protestars_221.zip", "_exports/cables_Protestars_222.zip", "_exports/cables_Protestars_223.zip", "_exports/cables_Protestars_224.zip", "_exports/cables_Protestars_225.zip", "_exports/cables_Protestars_226.zip", "_exports/cables_Protestars_227.zip", "_exports/cables_Protestars_228.zip", "_exports/cables_Protestars_229.zip", "_exports/cables_Protestars_23.zip", "_exports/cables_Protestars_230.zip", "_exports/cables_Protestars_231.zip", "_exports/cables_Protestars_232.zip", "_exports/cables_Protestars_233.zip", "_exports/cables_Protestars_234.zip", "_exports/cables_Protestars_235.zip", "_exports/cables_Protestars_236.zip", "_exports/cables_Protestars_24.zip", "_exports/cables_Protestars_25.zip", "_exports/cables_Protestars_26.zip", "_exports/cables_Protestars_27.zip", "_exports/cables_Protestars_28.zip", "_exports/cables_Protestars_29.zip"],
     filenameAssets: ["Icona-piattaforma.png", "Logo.png", "Logo_mobile.png", "ProximaNova-Regular.otf", "protestars1.jpg", "protestars10.jpg", "protestars11.jpg", "protestars12.jpg", "protestars13.jpg", "protestars14.jpg", "protestars15.jpg", "protestars2.jpg", "protestars3.jpg", "protestars4.jpg", "protestars5.jpg", "protestars6.jpg", "protestars7.jpg", "protestars8.jpg", "protestars9.jpg"],
     hasOldScreenshots: !1,
     hasOldExports: !1,
-    sizeScreenshots: 29402.87890625,
-    sizeExports: 183371.62890625,
+    sizeScreenshots: 30024.3037109375,
+    sizeExports: 183814.509765625,
     sizeAssets: 43466.5732421875
   },
   cachedUsername: "GruppoTre",
-  exports: 36
+  exports: 37
 }, CABLES.exportedPatch || (CABLES.exportedPatch = CABLES.exportedPatches.EQqT8q);
 var CABLES = CABLES || {};
 CABLES.OPS = CABLES.OPS || {};
@@ -16169,7 +15805,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       }
       p.set(t.touches)
     }
-    d.onChange = S;
+    d.onChange = j;
     const O = function(e) {
         r.set(!0), h(e), s.set(e.touches.length), g.trigger()
       },
@@ -16180,23 +15816,23 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         h(e), s.set(e.touches.length), a.get() || t.get() && 1 !== e.scale ? (e.preventDefault(), document.body.style["touch-action"] = "none") : document.body.style["touch-action"] = "initial"
       },
       A = e.patch.cgl;
-    let j = null;
+    let S = null;
 
-    function S() {
+    function j() {
       ! function() {
-        j && (j.removeEventListener("touchmove", x), j.removeEventListener("touchstart", O), j.removeEventListener("touchend", I));
-        j = null
-      }(), j = "Document" == d.get() ? document : A.canvas, o.get() && (j.addEventListener("touchmove", x, {
+        S && (S.removeEventListener("touchmove", x), S.removeEventListener("touchstart", O), S.removeEventListener("touchend", I));
+        S = null
+      }(), S = "Document" == d.get() ? document : A.canvas, o.get() && (S.addEventListener("touchmove", x, {
         passive: !0
-      }), j.addEventListener("touchstart", O, {
+      }), S.addEventListener("touchstart", O, {
         passive: !0
-      }), j.addEventListener("touchend", I, {
+      }), S.addEventListener("touchend", I, {
         passive: !0
       }))
     }
     o.onChange = function() {
-      S()
-    }, S()
+      j()
+    }, j()
   }, Ops.Devices.TouchScreen.prototype = new CABLES.Op, CABLES.OPS["cedffacf-0f09-4342-bd21-540bd9c8037d"] = {
     f: Ops.Devices.TouchScreen,
     objName: "Ops.Devices.TouchScreen"
@@ -16451,9 +16087,9 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     function A() {
       a.loading.getProgress() >= 1 ? l.anim && O >= l.anim.keys.length ? (x = function() {}, s.set(!0), f = !0) : setTimeout(A, 30) : setTimeout(A, 100)
     }
-    const j = a.loading.start("delayloading", "delayloading");
+    const S = a.loading.start("delayloading", "delayloading");
     setTimeout(function() {
-      a.loading.finished(j)
+      a.loading.finished(S)
     }, 100), n.onTriggered = (() => {
       r.set(a.loading.getProgress()), b.set(a.loading.getNumAssets()), a.loading.getProgress() >= 1 && f ? (g && (u.get() && e.patch.preRenderOps(), p.trigger(), e.patch.timer.setTime(0), c.get() && (e.patch.timer.play(), s.set(!0)), g = !1), o.trigger(), document.body.classList.remove("cables-loading"), document.body.classList.add("cables-loaded")) : (l.anim || (f = !0, x = function() {}), l.anim && a.loading.getProgress() >= 1 && O < l.anim.keys.length && (x = I, A(), d.trigger()), a.loading.getProgress() < 1 && (d.trigger(), e.patch.timer.setTime(0), e.patch.timer.pause()))
     })
@@ -16536,8 +16172,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       I = e.inValue("roll", 0),
       x = e.outValue("Aspect"),
       A = e.outArray("Look At Array"),
-      j = e.patch.cgl;
-    let S = 0;
+      S = e.patch.cgl;
+    let j = 0;
     const P = vec3.create(),
       M = vec3.create(),
       _ = vec3.create(),
@@ -16545,12 +16181,12 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     mat4.identity(C);
     const T = [],
       L = vec3.create(),
-      k = mat4.create();
-    mat4.identity(k);
-    let y = !0;
+      y = mat4.create();
+    mat4.identity(y);
+    let k = !0;
     t.onTriggered = function() {
-      if (j.frameStore.shadowPass) return a.trigger();
-      S = i.get() ? j.getViewPort()[2] / j.getViewPort()[3] : l.get(), x.set(S), j.pushViewMatrix(), y && (mat4.identity(k), vec3.set(L, m.get(), g.get(), v.get()), 0 === m.get() && 0 === g.get() && 0 === v.get() || mat4.translate(k, k, L), 0 !== h.get() && mat4.rotateX(k, k, h.get() * CGL.DEG2RAD), 0 !== O.get() && mat4.rotateY(k, k, O.get() * CGL.DEG2RAD), 0 !== I.get() && mat4.rotateZ(k, k, I.get() * CGL.DEG2RAD), y = !1), mat4.multiply(j.vMatrix, j.vMatrix, k), j.pushPMatrix(), j.pushViewMatrix(), "prespective" == n.get() ? mat4.perspective(j.pMatrix, .0174533 * s.get(), S, o.get(), r.get()) : "ortogonal" == n.get() && mat4.ortho(j.pMatrix, s.get() / 14 * -1, s.get() / 14 * 1, s.get() / 14 * -1 / S, s.get() / 14 * 1 / S, o.get(), r.get()), T[0] = u.get(), T[1] = c.get(), T[2] = b.get(), T[3] = d.get(), T[4] = p.get(), T[5] = f.get(), T[6] = 0, T[7] = 1, T[8] = 0, A.set(null), A.set(T), vec3.set(P, 0, 1, 0), vec3.set(M, u.get(), c.get(), b.get()), vec3.set(_, d.get(), p.get(), f.get()), mat4.lookAt(C, M, _, P), mat4.multiply(j.vMatrix, j.vMatrix, C), a.trigger(), j.popViewMatrix(), j.popPMatrix(), j.popViewMatrix(), e.isCurrentUiOp() && gui.setTransformGizmo({
+      if (S.frameStore.shadowPass) return a.trigger();
+      j = i.get() ? S.getViewPort()[2] / S.getViewPort()[3] : l.get(), x.set(j), S.pushViewMatrix(), k && (mat4.identity(y), vec3.set(L, m.get(), g.get(), v.get()), 0 === m.get() && 0 === g.get() && 0 === v.get() || mat4.translate(y, y, L), 0 !== h.get() && mat4.rotateX(y, y, h.get() * CGL.DEG2RAD), 0 !== O.get() && mat4.rotateY(y, y, O.get() * CGL.DEG2RAD), 0 !== I.get() && mat4.rotateZ(y, y, I.get() * CGL.DEG2RAD), k = !1), mat4.multiply(S.vMatrix, S.vMatrix, y), S.pushPMatrix(), S.pushViewMatrix(), "prespective" == n.get() ? mat4.perspective(S.pMatrix, .0174533 * s.get(), j, o.get(), r.get()) : "ortogonal" == n.get() && mat4.ortho(S.pMatrix, s.get() / 14 * -1, s.get() / 14 * 1, s.get() / 14 * -1 / j, s.get() / 14 * 1 / j, o.get(), r.get()), T[0] = u.get(), T[1] = c.get(), T[2] = b.get(), T[3] = d.get(), T[4] = p.get(), T[5] = f.get(), T[6] = 0, T[7] = 1, T[8] = 0, A.set(null), A.set(T), vec3.set(P, 0, 1, 0), vec3.set(M, u.get(), c.get(), b.get()), vec3.set(_, d.get(), p.get(), f.get()), mat4.lookAt(C, M, _, P), mat4.multiply(S.vMatrix, S.vMatrix, C), a.trigger(), S.popViewMatrix(), S.popPMatrix(), S.popViewMatrix(), e.isCurrentUiOp() && gui.setTransformGizmo({
         posX: m,
         posY: g,
         posZ: v
@@ -16566,7 +16202,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         })
       },
       B = function() {
-        y = !0
+        k = !0
       };
     m.onChange = B, g.onChange = B, v.onChange = B, h.onChange = B, O.onChange = B, I.onChange = B, i.onChange = E, E()
   }, Ops.Gl.Matrix.Camera.prototype = new CABLES.Op, CABLES.OPS["b24dbfdc-485c-49d2-92a1-7258efd9239a"] = {
@@ -16788,7 +16424,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function O() {
-      o.get() != f.style && (f.setAttribute("style", o.get()), v(), l.set(null), l.set(f)), f.parentElement || m.appendChild(f), S()
+      o.get() != f.style && (f.setAttribute("style", o.get()), v(), l.set(null), l.set(f)), f.parentElement || m.appendChild(f), j()
     }
 
     function I() {
@@ -16803,21 +16439,21 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       c.trigger()
     }
 
-    function j() {
+    function S() {
       b && (b.removeEventListener("click", A), b.removeEventListener("mouseleave", x), b.removeEventListener("mouseenter", I), b = null)
     }
 
-    function S() {
+    function j() {
       n.get() && o.get() ? e.setUiError("error", "DIV uses external and inline CSS", 1) : e.setUiError("error", null)
     }
     m.appendChild(f), l.set(f), n.onChange = function() {
-      f.setAttribute("class", n.get()), S()
+      f.setAttribute("class", n.get()), j()
     }, i.onChange = t.onChange = h, o.onChange = O, r.onChange = function() {
-      j(), r.get() && function() {
-        b && j();
+      S(), r.get() && function() {
+        b && S();
         (b = f) && (b.addEventListener("click", A), b.addEventListener("mouseleave", x), b.addEventListener("mouseenter", I))
       }()
-    }, s.onChange = v, h(), O(), S(), e.onDelete = function() {
+    }, s.onChange = v, h(), O(), j(), e.onDelete = function() {
       f && f.parentNode && f.parentNode.removeChild(f)
     }, l.onLinkChanged = O, a.onChange = function() {
       f.id = a.get()
@@ -16888,23 +16524,23 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         ! function(e) {
           for (var t = 0; t < h.length; t++) h[t] && h[t].delete();
           h.length = 0;
-          for (var t = Math.floor(o.get()); t <= Math.floor(r.get()); t++) j(t, e)
+          for (var t = Math.floor(o.get()); t <= Math.floor(r.get()); t++) S(t, e)
         }(e)
       }, 30)
     }
     const A = "X";
 
-    function j(r, s) {
+    function S(r, s) {
       let i = t.get();
       if (!i) return;
       const O = i.indexOf(A),
         x = i.lastIndexOf(A);
       if (-1 === O) return;
-      const j = i.substring(O, x + 1);
-      let S = r;
-      if (a.get() && (S = function e(t, a) {
+      const S = i.substring(O, x + 1);
+      let j = r;
+      if (a.get() && (j = function e(t, a) {
           return t.toString().length < a ? e("0" + t, a) : t
-        }(r, n.get())), i = i.replace(j, S), i = e.patch.getFilePath(i), s && (i += "?rnd=" + CABLES.generateUUID()), t.get() && t.get().length > 1) {
+        }(r, n.get())), i = i.replace(S, j), i = e.patch.getFilePath(i), s && (i += "?rnd=" + CABLES.generateUUID()), t.get() && t.get().length > 1) {
         p.set(!0);
         var P = CGL.Texture.load(m, i, function(a) {
           if (a) return I(), void e.uiAttr({
@@ -16969,7 +16605,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }, s.onChange = function() {
       A()
     }, d.set(!1), a.set("mipmap"), n.set("repeat"), l.set(CGL.Texture.getEmptyTexture(p)), i.onChange = function() {
-      i.get() ? f != t.get() ? j() : l.set(g) : l.set(CGL.Texture.getEmptyTexture(p))
+      i.get() ? f != t.get() ? S() : l.set(g) : l.set(CGL.Texture.getEmptyTexture(p))
     };
     const x = function() {
       const e = CGL.Texture.getTempTexture(p);
@@ -16978,11 +16614,11 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
 
     function A(e) {
       clearTimeout(I), I = setTimeout(function() {
-        j(e)
+        S(e)
       }, 30)
     }
 
-    function j(a) {
+    function S(a) {
       if (!i.get()) return;
       m || (m = p.patch.loading.start("textureOp", t.get()));
       let n = e.patch.getFilePath(String(t.get()));
@@ -17002,7 +16638,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       })) : (p.patch.loading.finished(m), x())
     }
     e.onFileChanged = function(e) {
-      t.get() && t.get().indexOf(e) > -1 && (l.set(null), l.set(CGL.Texture.getTempTexture(p)), j(!0))
+      t.get() && t.get().indexOf(e) > -1 && (l.set(null), l.set(CGL.Texture.getTempTexture(p)), S(!0))
     }
   }, Ops.Gl.Texture_v2.prototype = new CABLES.Op, CABLES.OPS["790f3702-9833-464e-8e37-6f0f813f7e16"] = {
     f: Ops.Gl.Texture_v2,
@@ -17041,9 +16677,9 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       I = e.inValue("diffuseRepeatX", 1),
       x = e.inValue("diffuseRepeatY", 1),
       A = e.inValue("Tex Offset X", 0),
-      j = e.inValue("Tex Offset Y", 0),
-      S = e.inBool("Crop TexCoords", !1);
-    i.addUniformFrag("f", "diffuseRepeatX", I), i.addUniformFrag("f", "diffuseRepeatY", x), i.addUniformFrag("f", "texOffsetX", A), i.addUniformFrag("f", "texOffsetY", j);
+      S = e.inValue("Tex Offset Y", 0),
+      j = e.inBool("Crop TexCoords", !1);
+    i.addUniformFrag("f", "diffuseRepeatX", I), i.addUniformFrag("f", "diffuseRepeatY", x), i.addUniformFrag("f", "texOffsetX", A), i.addUniformFrag("f", "texOffsetY", S);
     const P = e.inValueBool("billboard", !1);
 
     function M() {
@@ -17073,7 +16709,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         greyout: !1
       }), A.setUiAttribs({
         greyout: !1
-      }), j.setUiAttribs({
+      }), S.setUiAttribs({
         greyout: !1
       }), f.setUiAttribs({
         greyout: !1
@@ -17083,7 +16719,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         greyout: !0
       }), A.setUiAttribs({
         greyout: !0
-      }), j.setUiAttribs({
+      }), S.setUiAttribs({
         greyout: !0
       }), f.setUiAttribs({
         greyout: !0
@@ -17091,9 +16727,9 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function T() {
-      i.toggleDefine("CROP_TEXCOORDS", S.get()), i.toggleDefine("COLORIZE_TEXTURE", f.get()), i.toggleDefine("TRANSFORMALPHATEXCOORDS", h.get()), i.toggleDefine("DISCARDTRANS", O.get()), i.toggleDefine("BILLBOARD", P.get()), i.toggleDefine("ALPHA_MASK_ALPHA", "A" == v.get()), i.toggleDefine("ALPHA_MASK_LUMI", "Luminance" == v.get()), i.toggleDefine("ALPHA_MASK_R", "R" == v.get()), i.toggleDefine("ALPHA_MASK_G", "G" == v.get()), i.toggleDefine("ALPHA_MASK_B", "B" == v.get())
+      i.toggleDefine("CROP_TEXCOORDS", j.get()), i.toggleDefine("COLORIZE_TEXTURE", f.get()), i.toggleDefine("TRANSFORMALPHATEXCOORDS", h.get()), i.toggleDefine("DISCARDTRANS", O.get()), i.toggleDefine("BILLBOARD", P.get()), i.toggleDefine("ALPHA_MASK_ALPHA", "A" == v.get()), i.toggleDefine("ALPHA_MASK_LUMI", "Luminance" == v.get()), i.toggleDefine("ALPHA_MASK_R", "R" == v.get()), i.toggleDefine("ALPHA_MASK_G", "G" == v.get()), i.toggleDefine("ALPHA_MASK_B", "B" == v.get())
     }
-    v.onChange = P.onChange = O.onChange = h.onChange = S.onChange = f.onChange = T, e.setPortGroup("Color", [l, u, c, b]), e.setPortGroup("Color Texture", [d, f]), e.setPortGroup("Opacity", [m, v, O, h]), e.setPortGroup("Texture Transform", [I, x, A, j, S]), _(), C(), e.preRender = function() {
+    v.onChange = P.onChange = O.onChange = h.onChange = j.onChange = f.onChange = T, e.setPortGroup("Color", [l, u, c, b]), e.setPortGroup("Color Texture", [d, f]), e.setPortGroup("Opacity", [m, v, O, h]), e.setPortGroup("Texture Transform", [I, x, A, S, j]), _(), C(), e.preRender = function() {
       i.bind(), M()
     }
   }, Ops.Gl.Shader.BasicMaterial_v3.prototype = new CABLES.Op, CABLES.OPS["ec55d252-3843-41b1-b731-0482dbd9e72b"] = {
@@ -17133,22 +16769,22 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         I = [],
         x = [],
         A = Math.round(l.get()),
-        j = Math.round(i.get()),
-        S = e / j,
+        S = Math.round(i.get()),
+        j = e / S,
         P = t / A;
       let M, _, C;
       for (C = u.get(), _ = 0; _ <= A; _++)
-        for (M = 0; M <= j; M++) g.push(M * S - n.get() / 2 + a), "xz" == C && g.push(0), g.push(_ * P - o.get() / 2 + c), "xy" == C && g.push(0), v.push(M / j), v.push(1 - _ / A), "xz" == C ? (h.push(0, 1, 0), O.push(1, 0, 0), I.push(0, 0, 1)) : "xy" == C && (h.push(0, 0, 1), O.push(-1, 0, 0), I.push(0, -1, 0));
-      for (M = 0; M < j; M++)
+        for (M = 0; M <= S; M++) g.push(M * j - n.get() / 2 + a), "xz" == C && g.push(0), g.push(_ * P - o.get() / 2 + c), "xy" == C && g.push(0), v.push(M / S), v.push(1 - _ / A), "xz" == C ? (h.push(0, 1, 0), O.push(1, 0, 0), I.push(0, 0, 1)) : "xy" == C && (h.push(0, 0, 1), O.push(-1, 0, 0), I.push(0, -1, 0));
+      for (M = 0; M < S; M++)
         for (_ = 0; _ < A; _++) {
-          const e = M + (j + 1) * _,
+          const e = M + (S + 1) * _,
             t = e,
             a = e + 1,
-            n = e + j + 1,
-            o = e + 1 + j + 1;
+            n = e + S + 1,
+            o = e + 1 + S + 1;
           x.push(t), x.push(n), x.push(a), x.push(a), x.push(n), x.push(o)
         }
-      p.clear(), p.vertices = g, p.texCoords = v, p.verticesIndices = x, p.vertexNormals = h, p.tangents = O, p.biTangents = I, j * A > 64e3 && p.unIndex(), f ? f.setGeom(p) : f = new CGL.Mesh(d, p), b.set(null), b.set(p), m = !1
+      p.clear(), p.vertices = g, p.texCoords = v, p.verticesIndices = x, p.vertexNormals = h, p.tangents = O, p.biTangents = I, S * A > 64e3 && p.unIndex(), f ? f.setGeom(p) : f = new CGL.Mesh(d, p), b.set(null), b.set(p), m = !1
     }
     u.onChange = r.onChange = s.onChange = n.onChange = o.onChange = l.onChange = i.onChange = function() {
       m = !0
@@ -17233,11 +16869,11 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     e.setPortGroup("Masking", [p, f]);
     const x = 1024;
     let A = !1,
-      j = !0;
+      S = !0;
     i.onChange = o.onChange = u.onChange = function() {
-      j = !0
+      S = !0
     };
-    let S = null;
+    let j = null;
     CABLES.OpTextureMeshCanvas = {};
     let P = 0;
     let M = null,
@@ -17254,22 +16890,22 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function L() {
-      if (S = "" + s.get(), CABLES.OpTextureMeshCanvas.hasOwnProperty(S)) return CABLES.OpTextureMeshCanvas[S];
+      if (j = "" + s.get(), CABLES.OpTextureMeshCanvas.hasOwnProperty(j)) return CABLES.OpTextureMeshCanvas[j];
       const e = document.createElement("canvas");
       e.dataset.font = s.get(), e.id = "texturetext_" + CABLES.generateUUID(), e.style.display = "none", document.getElementsByTagName("body")[0].appendChild(e);
       const t = e.getContext("2d");
-      return CABLES.OpTextureMeshCanvas[S] = {
+      return CABLES.OpTextureMeshCanvas[j] = {
         ctx: t,
         canvas: e,
         chars: {},
         characters: "?",
         fontSize: 320
-      }, CABLES.OpTextureMeshCanvas[S]
+      }, CABLES.OpTextureMeshCanvas[j]
     }
     d.onChange = b.onChange = (() => {
       L().texture = null, C = !0
     }), f.onChange = p.onChange = function() {
-      k.toggleDefine("DO_MULTEX", p.get()), k.toggleDefine("DO_MULTEX_MASK", f.get())
+      y.toggleDefine("DO_MULTEX", p.get()), y.toggleDefine("DO_MULTEX_MASK", f.get())
     }, g.set(null), s.onChange = function() {
       C = !0, _ = !0, T()
     }, e.patch.on("fontLoaded", e => {
@@ -17277,19 +16913,19 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }), l.onChange = function() {
       "Middle" == l.get() ? P = 0 : "Top" == l.get() ? P = 1 : "Bottom" == l.get() && (P = 2)
     }, e.onDelete = function() {
-      S && CABLES.OpTextureMeshCanvas[S] && CABLES.OpTextureMeshCanvas[S].canvas.remove()
+      j && CABLES.OpTextureMeshCanvas[j] && CABLES.OpTextureMeshCanvas[j].canvas.remove()
     };
-    var k = new CGL.Shader(I, "TextMesh");
-    k.setSource(a, t);
-    new CGL.Uniform(k, "t", "tex", 0), new CGL.Uniform(k, "t", "texMul", 1), new CGL.Uniform(k, "t", "texMulMask", 2), new CGL.Uniform(k, "f", "scale", r);
-    const y = e.inValueSlider("r", 1),
+    var y = new CGL.Shader(I, "TextMesh");
+    y.setSource(a, t);
+    new CGL.Uniform(y, "t", "tex", 0), new CGL.Uniform(y, "t", "texMul", 1), new CGL.Uniform(y, "t", "texMulMask", 2), new CGL.Uniform(y, "f", "scale", r);
+    const k = e.inValueSlider("r", 1),
       E = e.inValueSlider("g", 1),
       B = e.inValueSlider("b", 1),
       N = e.inValueSlider("a", 1);
-    new CGL.Uniform(k, "f", "r", y), new CGL.Uniform(k, "f", "g", E), new CGL.Uniform(k, "f", "b", B), new CGL.Uniform(k, "f", "a", N);
-    y.setUiAttribs({
+    new CGL.Uniform(y, "f", "r", k), new CGL.Uniform(y, "f", "g", E), new CGL.Uniform(y, "f", "b", B), new CGL.Uniform(y, "f", "a", N);
+    k.setUiAttribs({
       colorPick: !0
-    }), e.setPortGroup("Display", [r, s]), e.setPortGroup("Alignment", [i, l]), e.setPortGroup("Color", [y, E, B, N]);
+    }), e.setPortGroup("Display", [r, s]), e.setPortGroup("Alignment", [i, l]), e.setPortGroup("Color", [k, E, B, N]);
     let V = 0;
     const w = vec3.create();
     let R = -1,
@@ -17386,10 +17022,10 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       F(r, !1), n.restore(), t.texture.initTexture(t.canvas, e), t.texture.unpackAlpha = !0, g.set(t.texture), t.lastChange = CABLES.now(), _ = !0, C = !1
     }
     n.onTriggered = function() {
-      j && (W(), j = !1);
+      S && (W(), S = !1);
       const e = L();
       if (e.lastChange != R && (_ = !0, R = e.lastChange), C && U(), _ && W(), M && M.numInstances > 0) {
-        I.pushBlendMode(CGL.BLEND_NORMAL, !0), I.setShader(k), I.setTexture(0, g.get().tex);
+        I.pushBlendMode(CGL.BLEND_NORMAL, !0), I.setShader(y), I.setTexture(0, g.get().tex);
         const e = p.get();
         e && I.setTexture(1, e.tex);
         const t = f.get();
@@ -17574,8 +17210,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       I = e.outValue("Top"),
       x = e.outValue("Left"),
       A = e.outValue("Right"),
-      j = e.outValue("Bottom"),
-      S = e.outTrigger("Left Click"),
+      S = e.outValue("Bottom"),
+      j = e.outTrigger("Left Click"),
       P = e.outObject("Dom Element");
     f.setUiAttribs({
       title: "Active"
@@ -17587,8 +17223,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       T = null;
     mat4.create();
     const L = mat4.create(),
-      k = vec3.create(),
       y = vec3.create(),
+      k = vec3.create(),
       E = vec3.create();
     u.onChange = B, i.onChange = B, l.onChange = B, n.onChange = B, o.onChange = B, p.onChange = F, B();
     mat4.create(), mat4.create(), vec3.create();
@@ -17598,7 +17234,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         t = o.get(),
         a = 0,
         r = 0;
-      "string" == typeof e && (e = parseFloat(e)), "string" == typeof t && (t = parseFloat(t)), "center" == i.get() && (a = 0, y[0] = -e / 2), "right" == i.get() && (a = -e / 2), "left" == i.get() && (a = e / 2), "center" == l.get() && (r = 0, y[1] = -t / 2), "top" == l.get() && (r = -t / 2), "bottom" == l.get() && (r = +t / 2);
+      "string" == typeof e && (e = parseFloat(e)), "string" == typeof t && (t = parseFloat(t)), "center" == i.get() && (a = 0, k[0] = -e / 2), "right" == i.get() && (a = -e / 2), "left" == i.get() && (a = e / 2), "center" == l.get() && (r = 0, k[1] = -t / 2), "top" == l.get() && (r = -t / 2), "bottom" == l.get() && (r = +t / 2);
       const s = [],
         c = [],
         b = [],
@@ -17650,22 +17286,22 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function D() {
-      mat4.multiply(G, M.vMatrix, M.mMatrix), vec3.transformMat4(k, y, G), vec3.transformMat4(L, k, M.pMatrix);
+      mat4.multiply(G, M.vMatrix, M.mMatrix), vec3.transformMat4(y, k, G), vec3.transformMat4(L, y, M.pMatrix);
       const t = L[0] * M.canvasWidth / 2 + M.canvasWidth / 2,
         a = L[1] * M.canvasHeight / 2 + M.canvasHeight / 2;
-      E[0] = y[0] + n.get(), E[1] = y[1], vec3.transformMat4(k, E, G), vec3.transformMat4(L, k, M.pMatrix);
+      E[0] = k[0] + n.get(), E[1] = k[1], vec3.transformMat4(y, E, G), vec3.transformMat4(L, y, M.pMatrix);
       const r = L[0] * M.canvasWidth / 2 + M.canvasWidth / 2,
         s = L[1] * M.canvasHeight / 2 + M.canvasHeight / 2;
-      E[0] = y[0], E[1] = y[1] + o.get(), vec3.transformMat4(k, E, G), vec3.transformMat4(L, k, M.pMatrix);
+      E[0] = k[0], E[1] = k[1] + o.get(), vec3.transformMat4(y, E, G), vec3.transformMat4(L, y, M.pMatrix);
       const i = L[0] * M.canvasWidth / 2 + M.canvasWidth / 2,
         l = L[1] * M.canvasHeight / 2 + M.canvasHeight / 2;
-      E[0] = y[0] + n.get(), E[1] = y[1] + o.get(), vec3.transformMat4(k, E, G), vec3.transformMat4(L, k, M.pMatrix);
+      E[0] = k[0] + n.get(), E[1] = k[1] + o.get(), vec3.transformMat4(y, E, G), vec3.transformMat4(L, y, M.pMatrix);
       const u = L[0] * M.canvasWidth / 2 + M.canvasWidth / 2,
         c = L[1] * M.canvasHeight / 2 + M.canvasHeight / 2;
       N = Math.min(t, r, i, u), V = Math.min(M.canvasHeight - a, M.canvasHeight - s, M.canvasHeight - l, M.canvasHeight - c);
       const b = Math.max(t, r, i, u),
         d = Math.max(M.canvasHeight - a, M.canvasHeight - s, M.canvasHeight - l, M.canvasHeight - c);
-      I.set(V), x.set(N), A.set(b), j.set(d), w = Math.abs(b - N), R = Math.abs(d - V), N /= e.patch.cgl.pixelDensity, V /= e.patch.cgl.pixelDensity, w /= e.patch.cgl.pixelDensity, R /= e.patch.cgl.pixelDensity;
+      I.set(V), x.set(N), A.set(b), S.set(d), w = Math.abs(b - N), R = Math.abs(d - V), N /= e.patch.cgl.pixelDensity, V /= e.patch.cgl.pixelDensity, w /= e.patch.cgl.pixelDensity, R /= e.patch.cgl.pixelDensity;
       const p = N + "px",
         f = V + "px",
         m = w + "px",
@@ -17703,7 +17339,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function $(e) {
-      S.trigger()
+      j.trigger()
     }
 
     function J(e) {
@@ -17834,35 +17470,35 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       } else b.set((e || 0) * c.get()), d.set((t || 0) * c.get())
     }
     l.onChange = function() {
-      l.get() ? O = setInterval(y, 5) : O && clearTimeout(O)
+      l.get() ? O = setInterval(k, 5) : O && clearTimeout(O)
     };
-    let j = 0,
-      S = 0;
+    let S = 0,
+      j = 0;
     n.onChange = function() {
       A(P = 0, M = 0)
     };
     var P = I.canvas.width / 2,
       M = I.canvas.height / 2;
-    j = P, S = M, b.set(P), d.set(M);
+    S = P, j = M, b.set(P), d.set(M);
     let _ = 0,
       C = 0,
       T = 0,
       L = 0;
     D(), r.onChange = D;
-    let k = 0;
+    let y = 0;
 
-    function y() {
-      (k = u.get()) <= 0 && (k = .01);
-      const e = Math.abs(P - j),
-        t = Math.round(e / k, 0);
-      j = j < P ? j + t : j - t;
-      const a = Math.abs(M - S),
-        n = Math.round(a / k, 0);
-      A(j, S = S < M ? S + n : S - n)
+    function k() {
+      (y = u.get()) <= 0 && (y = .01);
+      const e = Math.abs(P - S),
+        t = Math.round(e / y, 0);
+      S = S < P ? S + t : S - t;
+      const a = Math.abs(M - j),
+        n = Math.round(a / y, 0);
+      A(S, j = j < M ? j + n : j - n)
     }
 
     function E(e) {
-      p.set(!1), v.set(!0), k = u.get()
+      p.set(!1), v.set(!0), y = u.get()
     }
 
     function B(e) {
@@ -17882,7 +17518,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function R(e) {
-      _ = 0, C = 0, k = 100, v.set(!1), p.set(!1)
+      _ = 0, C = 0, y = 100, v.set(!1), p.set(!1)
     }
 
     function G(e) {
@@ -18076,18 +17712,18 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       I = O.os.family,
       x = "Opera" === O.name,
       A = "Safari" === O.name,
-      j = "IE" === O.name,
-      S = "Microsoft Edge" === O.name,
+      S = "IE" === O.name,
+      j = "Microsoft Edge" === O.name,
       P = "Chrome" === O.name || "Chrome Mobile" === O.name,
       M = (O.layout, "Firefox" === O.name || "Firefox Mobile" === O.name || "Firefox for iOS" === O.name),
       _ = "Linux" === I || "Ubuntu" === I || "SuSE" === I || "Fedora" === I || "OpenBSD" === I || "Debian" === I || "Red Hat" === I,
       C = "Mac" === I || "Macintosh" === I || "Mac OS X" === I || "OS X" === I,
       T = "Windows" === I || "Windows 98;" === I,
       L = "Android" === I,
-      k = "iOS" === I,
-      y = "webOS" === I || "Windows Phone" === I || "Android" === I || "iOS" === I || "Chrome Mobile" === O.name || "Firefox for iOS" === O.name || "Firefox Mobile" === O.name || "IE Mobile" === O.name || "Opera Mobile" === O.name,
+      y = "iOS" === I,
+      k = "webOS" === I || "Windows Phone" === I || "Android" === I || "iOS" === I || "Chrome Mobile" === O.name || "Firefox for iOS" === O.name || "Firefox Mobile" === O.name || "IE Mobile" === O.name || "Opera Mobile" === O.name,
       E = "Electron" === O.name;
-    t.set(y), a.set(j), n.set(S), o.set(P), r.set(M), s.set(x), i.set(A), c.set(C), u.set(_), l.set(T), b.set(k), d.set(L), p.set(E), v.set(navigator.language || navigator.userLanguage), h.set(O.ua), g.set(O.os.version), f.set(O.os.toString()), m.set(O.name)
+    t.set(k), a.set(S), n.set(j), o.set(P), r.set(M), s.set(x), i.set(A), c.set(C), u.set(_), l.set(T), b.set(y), d.set(L), p.set(E), v.set(navigator.language || navigator.userLanguage), h.set(O.ua), g.set(O.os.version), f.set(O.os.toString()), m.set(O.name)
   }, Ops.Html.BrowserInfo_v3.prototype = new CABLES.Op, CABLES.OPS["ec3e0121-b2c2-4c31-bbda-a6982080f73f"] = {
     f: Ops.Html.BrowserInfo_v3,
     objName: "Ops.Html.BrowserInfo_v3"
@@ -18613,16 +18249,16 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       var l, c, v, h, O, I = o ? !!r.likeChrome : /\bChrome\b/.test(a) && !/internal|\n/i.test(u.toString()),
         x = o ? "Object" : "ScriptBridgingProxyObject",
         A = o ? "Object" : "Environment",
-        j = o && n.java ? "JavaPackage" : p(n.java),
-        S = o ? "Object" : "RuntimeObject",
-        P = /\bJava/.test(j) && n.java,
+        S = o && n.java ? "JavaPackage" : p(n.java),
+        j = o ? "Object" : "RuntimeObject",
+        P = /\bJava/.test(S) && n.java,
         M = P && p(n.environment) == A,
         _ = P ? "a" : "α",
         C = P ? "b" : "β",
         T = n.document || {},
         L = n.operamini || n.opera,
-        k = s.test(k = o && L ? L["[[Class]]"] : p(L)) ? k : L = null,
-        y = a,
+        y = s.test(y = o && L ? L["[[Class]]"] : p(L)) ? y : L = null,
+        k = a,
         E = [],
         B = null,
         N = a == i,
@@ -18831,15 +18467,15 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         })
       }
       if (w && (w = [w]), /\bAndroid\b/.test(F) && !G && (l = /\bAndroid[^;]*;(.*?)(?:Build|\) AppleWebKit)\b/i.exec(a)) && (G = g(l[1]).replace(/^[a-z]{2}-[a-z]{2};\s*/i, "") || null), W && !G ? G = U([W]) : W && G && (G = G.replace(RegExp("^(" + f(W) + ")[-_.\\s]", "i"), W + " ").replace(RegExp("^(" + f(W) + ")[-_.]?(\\w)", "i"), W + " $2")), (l = /\bGoogle TV\b/.exec(G)) && (G = l[0]), /\bSimulator\b/i.test(a) && (G = (G ? G + " " : "") + "Simulator"), "Opera Mini" == R && /\bOPiOS\b/.test(a) && E.push("running in Turbo/Uncompressed mode"), "IE" == R && /\blike iPhone OS\b/.test(a) ? (W = (l = e(a.replace(/like iPhone OS/, ""))).manufacturer, G = l.product) : /^iP/.test(G) ? (R || (R = "Safari"), F = "iOS" + ((l = / OS ([\d_]+)/i.exec(a)) ? " " + l[1].replace(/_/g, ".") : "")) : "Konqueror" == R && /^Linux\b/i.test(F) ? F = "Kubuntu" : W && "Google" != W && (/Chrome/.test(R) && !/\bMobile Safari\b/i.test(a) || /\bVita\b/.test(G)) || /\bAndroid\b/.test(F) && /^Chrome/.test(R) && /\bVersion\//i.test(a) ? (R = "Android Browser", F = /\bAndroid\b/.test(F) ? F : "Android") : "Silk" == R ? (/\bMobi/i.test(a) || (F = "Android", E.unshift("desktop mode")), /Accelerated *= *true/i.test(a) && E.unshift("accelerated")) : "UC Browser" == R && /\bUCWEB\b/.test(a) ? E.push("speed mode") : "PaleMoon" == R && (l = /\bFirefox\/([\d.]+)\b/.exec(a)) ? E.push("identifying as Firefox " + l[1]) : "Firefox" == R && (l = /\b(Mobile|Tablet|TV)\b/i.exec(a)) ? (F || (F = "Firefox OS"), G || (G = l[1])) : !R || (l = !/\bMinefield\b/i.test(a) && /\b(?:Firefox|Safari)\b/.exec(R)) ? (R && !G && /[\/,]|^[^(]+?\)/.test(a.slice(a.indexOf(l + "/") + 8)) && (R = null), (l = G || W || F) && (G || W || /\b(?:Android|Symbian OS|Tablet OS|webOS)\b/.test(F)) && (R = /[a-z]+(?: Hat)?/i.exec(/\bAndroid\b/.test(F) ? F : l) + " Browser")) : "Electron" == R && (l = (/\bChrome\/([\d.]+)\b/.exec(a) || 0)[1]) && E.push("Chromium " + l), V || (V = D(["(?:Cloud9|CriOS|CrMo|Edge|Edg|EdgA|EdgiOS|FxiOS|HeadlessChrome|IEMobile|Iron|Opera ?Mini|OPiOS|OPR|Raven|SamsungBrowser|Silk(?!/[\\d.]+$)|UCBrowser|YaBrowser)", "Version", f(R), "(?:Firefox|Minefield|NetFront)"])), (l = ("iCab" == w && parseFloat(V) > 3 ? "WebKit" : /\bOpera\b/.test(R) && (/\bOPR\b/.test(a) ? "Blink" : "Presto")) || /\b(?:Midori|Nook|Safari)\b/i.test(a) && !/^(?:Trident|EdgeHTML)$/.test(w) && "WebKit" || !w && /\bMSIE\b/i.test(a) && ("Mac OS" == F ? "Tasman" : "Trident") || "WebKit" == w && /\bPlayStation\b(?! Vita\b)/i.test(R) && "NetFront") && (w = [l]), "IE" == R && (l = (/; *(?:XBLWP|ZuneWP)(\d+)/i.exec(a) || 0)[1]) ? (R += " Mobile", F = "Windows Phone " + (/\+$/.test(l) ? l : l + ".x"), E.unshift("desktop mode")) : /\bWPDesktop\b/i.test(a) ? (R = "IE Mobile", F = "Windows Phone 8.x", E.unshift("desktop mode"), V || (V = (/\brv:([\d.]+)/.exec(a) || 0)[1])) : "IE" != R && "Trident" == w && (l = /\brv:([\d.]+)/.exec(a)) && (R && E.push("identifying as " + R + (V ? " " + V : "")), R = "IE", V = l[1]), N) {
-        if (h = "global", O = null != (v = n) ? typeof v[h] : "number", /^(?:boolean|number|string|undefined)$/.test(O) || "object" == O && !v[h]) p(l = n.runtime) == x ? (R = "Adobe AIR", F = l.flash.system.Capabilities.os) : p(l = n.phantom) == S ? (R = "PhantomJS", V = (l = l.version || null) && l.major + "." + l.minor + "." + l.patch) : "number" == typeof T.documentMode && (l = /\bTrident\/(\d+)/i.exec(a)) ? (V = [V, T.documentMode], (l = +l[1] + 4) != V[1] && (E.push("IE " + V[1] + " mode"), w && (w[1] = ""), V[1] = l), V = "IE" == R ? String(V[1].toFixed(1)) : V[0]) : "number" == typeof T.documentMode && /^(?:Chrome|Firefox)\b/.test(R) && (E.push("masking as " + R + " " + V), R = "IE", V = "11.0", w = ["Trident"], F = "Windows");
-        else if (P && (y = (l = P.lang.System).getProperty("os.arch"), F = F || l.getProperty("os.name") + " " + l.getProperty("os.version")), M) {
+        if (h = "global", O = null != (v = n) ? typeof v[h] : "number", /^(?:boolean|number|string|undefined)$/.test(O) || "object" == O && !v[h]) p(l = n.runtime) == x ? (R = "Adobe AIR", F = l.flash.system.Capabilities.os) : p(l = n.phantom) == j ? (R = "PhantomJS", V = (l = l.version || null) && l.major + "." + l.minor + "." + l.patch) : "number" == typeof T.documentMode && (l = /\bTrident\/(\d+)/i.exec(a)) ? (V = [V, T.documentMode], (l = +l[1] + 4) != V[1] && (E.push("IE " + V[1] + " mode"), w && (w[1] = ""), V[1] = l), V = "IE" == R ? String(V[1].toFixed(1)) : V[0]) : "number" == typeof T.documentMode && /^(?:Chrome|Firefox)\b/.test(R) && (E.push("masking as " + R + " " + V), R = "IE", V = "11.0", w = ["Trident"], F = "Windows");
+        else if (P && (k = (l = P.lang.System).getProperty("os.arch"), F = F || l.getProperty("os.name") + " " + l.getProperty("os.version")), M) {
           try {
             V = n.require("ringo/engine").version.join("."), R = "RingoJS"
           } catch (e) {
             (l = n.system) && l.global.system == n.system && (R = "Narwhal", F || (F = l[0].os || null))
           }
           R || (R = "Rhino")
-        } else "object" == typeof n.process && !n.process.browser && (l = n.process) && ("object" == typeof l.versions && ("string" == typeof l.versions.electron ? (E.push("Node " + l.versions.node), R = "Electron", V = l.versions.electron) : "string" == typeof l.versions.nw && (E.push("Chromium " + V, "Node " + l.versions.node), R = "NW.js", V = l.versions.nw)), R || (R = "Node.js", y = l.arch, F = l.platform, V = (V = /[\d.]+/.exec(l.version)) ? V[0] : null));
+        } else "object" == typeof n.process && !n.process.browser && (l = n.process) && ("object" == typeof l.versions && ("string" == typeof l.versions.electron ? (E.push("Node " + l.versions.node), R = "Electron", V = l.versions.electron) : "string" == typeof l.versions.nw && (E.push("Chromium " + V, "Node " + l.versions.node), R = "NW.js", V = l.versions.nw)), R || (R = "Node.js", k = l.arch, F = l.platform, V = (V = /[\d.]+/.exec(l.version)) ? V[0] : null));
         F = F && b(F)
       }
       if (V && (l = /(?:[ab]|dp|pre|[ab]\d+pre)(?:\d+\+?)?$/i.exec(V) || /(?:alpha|beta)(?: ?\d)?/i.exec(a + ";" + (N && r.appMinorVersion)) || /\bMinefield\b/i.test(a) && "a") && (B = /b/i.test(l) ? "beta" : "alpha", V = V.replace(RegExp(l + "\\+?$"), "") + ("beta" == B ? C : _) + (/\d+\+?/.exec(l) || "")), "Fennec" == R || "Firefox" == R && /\b(?:Android|Firefox OS|KaiOS)\b/.test(F)) R = "Firefox Mobile";
@@ -18850,7 +18486,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
           null === n.external && E.unshift("platform preview")
         } catch (e) {
           E.unshift("embedded")
-        } else(/\bBlackBerry\b/.test(G) || /\bBB10\b/.test(a)) && (l = (RegExp(G.replace(/ +/g, " *") + "/([.\\d]+)", "i").exec(a) || 0)[1] || V) ? (F = ((l = [l, /BB10/.test(a)])[1] ? (G = null, W = "BlackBerry") : "Device Software") + " " + l[0], V = null) : this != d && "Wii" != G && (N && L || /Opera/.test(R) && /\b(?:MSIE|Firefox)\b/i.test(a) || "Firefox" == R && /\bOS X (?:\d+\.){2,}/.test(F) || "IE" == R && (F && !/^Win/.test(F) && V > 5.5 || /\bWindows XP\b/.test(F) && V > 8 || 8 == V && !/\bTrident\b/.test(a))) && !s.test(l = e.call(d, a.replace(s, "") + ";")) && l.name && (l = "ing as " + l.name + ((l = l.version) ? " " + l : ""), s.test(R) ? (/\bIE\b/.test(l) && "Mac OS" == F && (F = null), l = "identify" + l) : (l = "mask" + l, R = k ? b(k.replace(/([a-z])([A-Z])/g, "$1 $2")) : "Opera", /\bIE\b/.test(l) && (F = null), N || (V = null)), w = ["Presto"], E.push(l));
+        } else(/\bBlackBerry\b/.test(G) || /\bBB10\b/.test(a)) && (l = (RegExp(G.replace(/ +/g, " *") + "/([.\\d]+)", "i").exec(a) || 0)[1] || V) ? (F = ((l = [l, /BB10/.test(a)])[1] ? (G = null, W = "BlackBerry") : "Device Software") + " " + l[0], V = null) : this != d && "Wii" != G && (N && L || /Opera/.test(R) && /\b(?:MSIE|Firefox)\b/i.test(a) || "Firefox" == R && /\bOS X (?:\d+\.){2,}/.test(F) || "IE" == R && (F && !/^Win/.test(F) && V > 5.5 || /\bWindows XP\b/.test(F) && V > 8 || 8 == V && !/\bTrident\b/.test(a))) && !s.test(l = e.call(d, a.replace(s, "") + ";")) && l.name && (l = "ing as " + l.name + ((l = l.version) ? " " + l : ""), s.test(R) ? (/\bIE\b/.test(l) && "Mac OS" == F && (F = null), l = "identify" + l) : (l = "mask" + l, R = y ? b(y.replace(/([a-z])([A-Z])/g, "$1 $2")) : "Opera", /\bIE\b/.test(l) && (F = null), N || (V = null)), w = ["Presto"], E.push(l));
         else R += " Mobile";
       (l = (/\bAppleWebKit\/([\d.]+\+?)/i.exec(a) || 0)[1]) && (l = [parseFloat(l.replace(/\.(\d)$/, ".0$1")), l], "Safari" == R && "+" == l[1].slice(-1) ? (R = "WebKit Nightly", B = "alpha", V = l[1].slice(0, -1)) : V != l[1] && V != (l[2] = (/\bSafari\/([\d.]+\+?)/i.exec(a) || 0)[1]) || (V = null), l[1] = (/\b(?:Headless)?Chrome\/([\d.]+)/i.exec(a) || 0)[1], 537.36 == l[0] && 537.36 == l[2] && parseFloat(l[1]) >= 28 && "WebKit" == w && (w = ["Blink"]), N && (I || l[1]) ? (w && (w[1] = "like Chrome"), l = l[1] || ((l = l[0]) < 530 ? 1 : l < 532 ? 2 : l < 532.05 ? 3 : l < 533 ? 4 : l < 534.03 ? 5 : l < 534.07 ? 6 : l < 534.1 ? 7 : l < 534.13 ? 8 : l < 534.16 ? 9 : l < 534.24 ? 10 : l < 534.3 ? 11 : l < 535.01 ? 12 : l < 535.02 ? "13+" : l < 535.07 ? 15 : l < 535.11 ? 16 : l < 535.19 ? 17 : l < 536.05 ? 18 : l < 536.1 ? 19 : l < 537.01 ? 20 : l < 537.11 ? "21+" : l < 537.13 ? 23 : l < 537.18 ? 24 : l < 537.24 ? 25 : l < 537.36 ? 26 : "Blink" != w ? "27" : "28")) : (w && (w[1] = "like Safari"), l = (l = l[0]) < 400 ? 1 : l < 500 ? 2 : l < 526 ? 3 : l < 533 ? 4 : l < 534 ? "4+" : l < 535 ? 5 : l < 537 ? 6 : l < 538 ? 7 : l < 601 ? 8 : l < 602 ? 9 : l < 604 ? 10 : l < 606 ? 11 : l < 608 ? 12 : "12"), w && (w[1] += " " + (l += "number" == typeof l ? ".x" : /[.+]/.test(l) ? "" : "+")), "Safari" == R && (!V || parseInt(V) > 45) ? V = l : "Chrome" == R && /\bHeadlessChrome/i.test(a) && E.unshift("headless")), "Opera" == R && (l = /\bzbov|zvav$/.exec(F)) ? (R += " ", E.unshift("desktop mode"), "zvav" == l ? (R += "Mini", V = null) : R += "Mobile", F = F.replace(RegExp(" *" + l + "$"), "")) : "Safari" == R && /\bChrome\b/.exec(w && w[1]) ? (E.unshift("desktop mode"), R = "Chrome Mobile", V = null, /\bOS X\b/.test(F) ? (W = "Apple", F = "iOS 4.3+") : F = null) : /\bSRWare Iron\b/.test(R) && !V && (V = D("Chrome")), V && 0 == V.indexOf(l = /[\d.]+$/.exec(F)) && a.indexOf("/" + l + "-") > -1 && (F = g(F.replace(l, ""))), F && -1 != F.indexOf(R) && !RegExp(R + " OS").test(F) && (F = F.replace(RegExp(" *" + f(R) + " *"), "")), w && !/\b(?:Avant|Nook)\b/.test(R) && (/Browser|Lunascape|Maxthon/.test(R) || "Safari" != R && /^iOS/.test(F) && /\bSafari\b/.test(w[1]) || /^(?:Adobe|Arora|Breach|Midori|Opera|Phantom|Rekonq|Rock|Samsung Internet|Sleipnir|SRWare Iron|Vivaldi|Web)/.test(R) && w[1]) && (l = w[w.length - 1]) && E.push(l), E.length && (E = ["(" + E.join("; ") + ")"]), W && G && G.indexOf(W) < 0 && E.push("on " + W), G && E.push((/^on /.test(E[E.length - 1]) ? "" : "on ") + G), F && (l = / ([\d.+]+)$/.exec(F), c = l && "/" == F.charAt(F.length - l[0].length - 1), F = {
         architecture: 32,
@@ -18860,7 +18496,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
           var e = this.version;
           return this.family + (e && !c ? " " + e : "") + (64 == this.architecture ? " 64-bit" : "")
         }
-      }), (l = /\b(?:AMD|IA|Win|WOW|x86_|x)64\b/i.exec(y)) && !/\bi686\b/i.test(y) ? (F && (F.architecture = 64, F.family = F.family.replace(RegExp(" *" + l), "")), R && (/\bWOW64\b/i.test(a) || N && /\w(?:86|32)$/.test(r.cpuClass || r.platform) && !/\bWin64; x64\b/i.test(a)) && E.unshift("32-bit")) : F && /^OS X/.test(F.family) && "Chrome" == R && parseFloat(V) >= 39 && (F.architecture = 64), a || (a = null);
+      }), (l = /\b(?:AMD|IA|Win|WOW|x86_|x)64\b/i.exec(k)) && !/\bi686\b/i.test(k) ? (F && (F.architecture = 64, F.family = F.family.replace(RegExp(" *" + l), "")), R && (/\bWOW64\b/i.test(a) || N && /\w(?:86|32)$/.test(r.cpuClass || r.platform) && !/\bWin64; x64\b/i.test(a)) && E.unshift("32-bit")) : F && /^OS X/.test(F.family) && "Chrome" == R && parseFloat(V) >= 39 && (F.architecture = 64), a || (a = null);
       var X = {};
       return X.description = a, X.layout = w && w[0], X.manufacturer = W, X.name = R, X.prerelease = B, X.product = G, X.ua = a, X.version = R && V, X.os = F || {
         architecture: null,
