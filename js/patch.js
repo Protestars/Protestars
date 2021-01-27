@@ -6287,7 +6287,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "index"
     }, {
       name: "rnd",
-      value: .4454475308641975
+      value: .18710991083676268
     }]
   }, {
     opId: "b0472a1d-db16-4ba6-8787-f300fbdc77bb",
@@ -6543,7 +6543,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "trigger"
     }, {
       name: "Aspect",
-      value: .5612788632326821
+      value: 1.7780898876404494
     }, {
       name: "Look At Array"
     }]
@@ -7372,7 +7372,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "index"
     }, {
       name: "rnd",
-      value: .27441272290809327
+      value: .07188786008230452
     }]
   }, {
     opId: "09122fbf-3b6b-4a05-ac76-fca031b505b9",
@@ -8149,10 +8149,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 0
     }, {
       name: "X",
-      value: 50.699999928474426
+      value: 50.69999858736992
     }, {
       name: "Y",
-      value: 528.7299932837486
+      value: 321.73001432418823
     }, {
       name: "Visible",
       value: !0
@@ -8652,22 +8652,22 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Pointer X",
-      value: .26843381989586773
+      value: .8891870057309315
     }, {
       name: "Pointer Y",
-      value: .6666668601451236
+      value: .5238096508579391
     }, {
       name: "Top",
-      value: 11.869979172945023
+      value: 11.869986772537231
     }, {
       name: "Left",
-      value: 20.89749825000763
+      value: 20.897503226995468
     }, {
       name: "Right",
-      value: 80.50250631570816
+      value: 80.50251281261444
     }, {
       name: "Bottom",
-      value: 32.86999136209488
+      value: 32.86999237537384
     }, {
       name: "Left Click"
     }, {
@@ -9000,10 +9000,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "x",
-      value: 3
+      value: 114
     }, {
       name: "y",
-      value: 140
+      value: 37
     }, {
       name: "button down"
     }, {
@@ -9215,7 +9215,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 158
+      value: 316.5
     }]
   }, {
     opId: "ec3e0121-b2c2-4c31-bbda-a6982080f73f",
@@ -9758,7 +9758,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "value"
     }, {
       name: "finished",
-      value: !0
+      value: !1
     }, {
       name: "Finished Trigger",
       value: 0
@@ -9814,7 +9814,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "value"
     }, {
       name: "finished",
-      value: !0
+      value: !1
     }, {
       name: "Finished Trigger",
       value: 0
@@ -9870,7 +9870,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "value"
     }, {
       name: "finished",
-      value: !0
+      value: !1
     }, {
       name: "Finished Trigger",
       value: 0
@@ -9898,7 +9898,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 261
+      value: 578
     }]
   }, {
     opId: "9549e2ed-a544-4d33-a672-05c7854ccf5d",
@@ -10000,7 +10000,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 530.22
+      value: 323.22
     }]
   }, {
     opId: "ec55d252-3843-41b1-b731-0482dbd9e72b",
@@ -10203,7 +10203,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 79
+      value: 158.25
     }]
   }, {
     opId: "86fcfd8c-038d-4b91-9820-a08114f6b7eb",
@@ -12068,7 +12068,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "index"
     }, {
       name: "rnd",
-      value: .10337791495198903
+      value: .9566658093278464
     }]
   }, {
     opId: "09122fbf-3b6b-4a05-ac76-fca031b505b9",
@@ -13980,7 +13980,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "TextureArray"
     }, {
       name: "width",
-      value: 3236
+      value: 3199
     }, {
       name: "height",
       value: 4e3
@@ -13989,7 +13989,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Aspect Ratio",
-      value: .809
+      value: .79975
     }]
   }, {
     opId: "afea522b-ab72-4574-b721-5d37f5abaf77",
@@ -14069,7 +14069,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "TextureArray"
     }, {
       name: "width",
-      value: 3003
+      value: 2662
     }, {
       name: "height",
       value: 4e3
@@ -14078,7 +14078,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Aspect Ratio",
-      value: .75075
+      value: .6655
     }]
   }, {
     opId: "afea522b-ab72-4574-b721-5d37f5abaf77",
@@ -14227,7 +14227,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       name: "index"
     }, {
       name: "rnd",
-      value: .4454475308641975
+      value: .18710991083676268
     }]
   }, {
     opId: "68177370-116e-4c76-aef3-3b10d68e7227",
@@ -14393,7 +14393,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 267.425
+      value: 169.1
     }]
   }, {
     opId: "a4ffe852-d200-4b96-9347-68feb01122ca",
@@ -14444,7 +14444,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "result",
-      value: 528
+      value: 321
     }]
   }, {
     opId: "949d6daf-d677-4ed6-a921-51a5732b64ac",
@@ -14646,10 +14646,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 0
     }, {
       name: "X",
-      value: 277.1600090265274
+      value: 116.00001060962677
     }, {
       name: "Y",
-      value: 528.7299932837486
+      value: 321.73001432418823
     }, {
       name: "Visible",
       value: !0
@@ -14928,12 +14928,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       }]
     }, {
       name: "posX",
-      links: [{
-        portIn: "posX",
-        portOut: "result",
-        objIn: "4af4c1fe-7936-411a-9bda-8afc46a18ae5",
-        objOut: "0ec1644f-6694-4846-9a86-30e38710e992"
-      }]
+      value: 116
     }, {
       name: "posY",
       links: [{
@@ -15038,22 +15033,22 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Pointer X",
-      value: .36909658983217675
+      value: .6375306467538072
     }, {
       name: "Pointer Y",
-      value: .4285717602487832
+      value: .28571428165954793
     }, {
       name: "Top",
-      value: 11.869979172945023
+      value: 11.869986772537231
     }, {
       name: "Left",
-      value: 247.3575073480606
+      value: 86.19749638438225
     }, {
       name: "Right",
-      value: 306.9625012874603
+      value: 145.80250597000122
     }, {
       name: "Bottom",
-      value: 32.86999136209488
+      value: 32.86999237537384
     }, {
       name: "Left Click"
     }, {
@@ -15278,7 +15273,8 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: "width"
     }],
     portsOut: [{
-      name: "Value"
+      name: "Value",
+      value: 633
     }]
   }, {
     opId: "421f5b52-c0fa-47c4-8b7a-012b9e1c864a",
@@ -15310,18 +15306,14 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     },
     portsIn: [{
       name: "number1",
-      links: [{
-        portIn: "number1",
-        portOut: "Value",
-        objIn: "0ec1644f-6694-4846-9a86-30e38710e992",
-        objOut: "086a1b81-801f-42c3-88ad-e73d621d5360"
-      }]
+      value: 1
     }, {
       name: "number2",
       value: 38.84
     }],
     portsOut: [{
-      name: "result"
+      name: "result",
+      value: -37.84
     }]
   }, {
     opId: "2390f6b3-2122-412e-8c8d-5c2f574e8bd1",
@@ -15391,7 +15383,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
         portIn: "r",
         portOut: "value",
         objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "f7ec70f8-805a-48ac-9197-21a83de22d93"
+        objOut: "18461451-6751-4a03-a3cc-10c43e6944ca"
       }]
     }, {
       name: "g",
@@ -15399,7 +15391,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
         portIn: "g",
         portOut: "value",
         objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "e63aa6f1-740c-4134-ab7b-79c950f65087"
+        objOut: "22c330af-7983-4835-a15e-a2696994acf1"
       }]
     }, {
       name: "b",
@@ -15407,7 +15399,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
         portIn: "b",
         portOut: "value",
         objIn: "5c1f4cc5-699f-4e25-9c39-c1b7cf037ce6",
-        objOut: "54bad6f1-8ff3-4bda-a0c8-dc5479f77c9a"
+        objOut: "527f3ef2-d38d-42c1-a2b6-dd56508f9078"
       }]
     }, {
       name: "a",
@@ -15478,10 +15470,10 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 0
     }, {
       name: "X",
-      value: 277.1600090265274
+      value: 116.00000166893005
     }, {
       name: "Y",
-      value: 528.7299932837486
+      value: 478.73001086711884
     }, {
       name: "Visible",
       value: !0
@@ -15527,174 +15519,6 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     }],
     portsOut: [{
       name: "trigger"
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "f7ec70f8-805a-48ac-9197-21a83de22d93",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "f7ec70f8-805a-48ac-9197-21a83de22d93",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "f7ec70f8-805a-48ac-9197-21a83de22d93",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .4823529411764706
-    }, {
-      name: "value true",
-      value: 1
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !0
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "e63aa6f1-740c-4134-ab7b-79c950f65087",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "e63aa6f1-740c-4134-ab7b-79c950f65087",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "e63aa6f1-740c-4134-ab7b-79c950f65087",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .47843137254901963
-    }, {
-      name: "value true",
-      value: .9882352941176471
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !0
-    }, {
-      name: "Finished Trigger",
-      value: 0
-    }]
-  }, {
-    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
-    objName: "Ops.Anim.BoolAnim",
-    id: "54bad6f1-8ff3-4bda-a0c8-dc5479f77c9a",
-    uiAttribs: {
-      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
-      selected: !1,
-      notWorkingMsg: null
-    },
-    portsIn: [{
-      name: "exe",
-      links: [{
-        portIn: "exe",
-        portOut: "Trigger out",
-        objIn: "54bad6f1-8ff3-4bda-a0c8-dc5479f77c9a",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "bool",
-      links: [{
-        portIn: "bool",
-        portOut: "Pointer Hover",
-        objIn: "54bad6f1-8ff3-4bda-a0c8-dc5479f77c9a",
-        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
-      }]
-    }, {
-      name: "easing",
-      value: "linear"
-    }, {
-      name: "duration",
-      value: .2
-    }, {
-      name: "Direction index",
-      value: 0
-    }, {
-      name: "Direction",
-      value: "Both"
-    }, {
-      name: "value false",
-      value: .7215686274509804
-    }, {
-      name: "value true",
-      value: .992
-    }],
-    portsOut: [{
-      name: "trigger",
-      value: 0
-    }, {
-      name: "value"
-    }, {
-      name: "finished",
-      value: !0
-    }, {
-      name: "Finished Trigger",
-      value: 0
     }]
   }, {
     opId: "949d6daf-d677-4ed6-a921-51a5732b64ac",
@@ -15760,12 +15584,7 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       }]
     }, {
       name: "posX",
-      links: [{
-        portIn: "posX",
-        portOut: "result",
-        objIn: "145b6ae4-ad33-405c-a169-cbdc7f0d3f4c",
-        objOut: "58f5db48-699d-4f36-87a9-a65e888855c8"
-      }]
+      value: 116
     }, {
       name: "posY",
       links: [{
@@ -15870,22 +15689,22 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: !1
     }, {
       name: "Pointer X",
-      value: .5368677766921841
+      value: .4697592211064472
     }, {
       name: "Pointer Y",
       value: .3333337023142634
     }, {
       name: "Top",
-      value: 11.869979172945023
+      value: 11.869985908269882
     }, {
       name: "Left",
-      value: 247.3575073480606
+      value: 86.19750308990479
     }, {
       name: "Right",
-      value: 306.9625012874603
+      value: 145.8025065511465
     }, {
       name: "Bottom",
-      value: 32.86999136209488
+      value: 32.86999753117561
     }, {
       name: "Left Click"
     }, {
@@ -15995,7 +15814,8 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       value: 38.84
     }],
     portsOut: [{
-      name: "result"
+      name: "result",
+      value: 594.16
     }]
   }, {
     opId: "a4ffe852-d200-4b96-9347-68feb01122ca",
@@ -16022,6 +15842,174 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
     portsOut: [{
       name: "result"
     }]
+  }, {
+    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
+    objName: "Ops.Anim.BoolAnim",
+    id: "18461451-6751-4a03-a3cc-10c43e6944ca",
+    uiAttribs: {
+      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
+      selected: !1,
+      notWorkingMsg: null
+    },
+    portsIn: [{
+      name: "exe",
+      links: [{
+        portIn: "exe",
+        portOut: "Trigger out",
+        objIn: "18461451-6751-4a03-a3cc-10c43e6944ca",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "bool",
+      links: [{
+        portIn: "bool",
+        portOut: "Pointer Hover",
+        objIn: "18461451-6751-4a03-a3cc-10c43e6944ca",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "easing",
+      value: "linear"
+    }, {
+      name: "duration",
+      value: .2
+    }, {
+      name: "Direction index",
+      value: 0
+    }, {
+      name: "Direction",
+      value: "Both"
+    }, {
+      name: "value false",
+      value: .4823529411764706
+    }, {
+      name: "value true",
+      value: 1
+    }],
+    portsOut: [{
+      name: "trigger",
+      value: 0
+    }, {
+      name: "value"
+    }, {
+      name: "finished",
+      value: !1
+    }, {
+      name: "Finished Trigger",
+      value: 0
+    }]
+  }, {
+    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
+    objName: "Ops.Anim.BoolAnim",
+    id: "22c330af-7983-4835-a15e-a2696994acf1",
+    uiAttribs: {
+      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
+      selected: !1,
+      notWorkingMsg: null
+    },
+    portsIn: [{
+      name: "exe",
+      links: [{
+        portIn: "exe",
+        portOut: "Trigger out",
+        objIn: "22c330af-7983-4835-a15e-a2696994acf1",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "bool",
+      links: [{
+        portIn: "bool",
+        portOut: "Pointer Hover",
+        objIn: "22c330af-7983-4835-a15e-a2696994acf1",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "easing",
+      value: "linear"
+    }, {
+      name: "duration",
+      value: .2
+    }, {
+      name: "Direction index",
+      value: 0
+    }, {
+      name: "Direction",
+      value: "Both"
+    }, {
+      name: "value false",
+      value: .47843137254901963
+    }, {
+      name: "value true",
+      value: .9882352941176471
+    }],
+    portsOut: [{
+      name: "trigger",
+      value: 0
+    }, {
+      name: "value"
+    }, {
+      name: "finished",
+      value: !1
+    }, {
+      name: "Finished Trigger",
+      value: 0
+    }]
+  }, {
+    opId: "06ad9d35-ccf5-4d31-889c-e23fa062588a",
+    objName: "Ops.Anim.BoolAnim",
+    id: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
+    uiAttribs: {
+      subPatch: "1ea5b205-b671-4251-b46f-63f2978d3a14",
+      selected: !1,
+      notWorkingMsg: null
+    },
+    portsIn: [{
+      name: "exe",
+      links: [{
+        portIn: "exe",
+        portOut: "Trigger out",
+        objIn: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "bool",
+      links: [{
+        portIn: "bool",
+        portOut: "Pointer Hover",
+        objIn: "527f3ef2-d38d-42c1-a2b6-dd56508f9078",
+        objOut: "1e2355a8-9a2e-4389-b6af-be4beb66d505"
+      }]
+    }, {
+      name: "easing",
+      value: "linear"
+    }, {
+      name: "duration",
+      value: .2
+    }, {
+      name: "Direction index",
+      value: 0
+    }, {
+      name: "Direction",
+      value: "Both"
+    }, {
+      name: "value false",
+      value: .7215686274509804
+    }, {
+      name: "value true",
+      value: .992
+    }],
+    portsOut: [{
+      name: "trigger",
+      value: 0
+    }, {
+      name: "value"
+    }, {
+      name: "finished",
+      value: !1
+    }, {
+      name: "Finished Trigger",
+      value: 0
+    }]
   }],
   users: [],
   userOps: [],
@@ -16031,13 +16019,13 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
   userId: "5fc904e2c7a6b0498cb09a5f",
   created: "2020-12-22T05:13:17.161Z",
   cloneOf: "5fdb4bc97949dc1492c5a2ed",
-  updated: "2021-01-18T22:46:59.829Z",
+  updated: "2021-01-27T02:48:07.584Z",
   log: [{
     _id: "5fe1806dbe1b431d65d22842",
     key: "collabsatcreate",
     text: "initial list of collaborators:"
   }],
-  __v: 143,
+  __v: 148,
   shortId: "EQqT8q",
   buildInfo: {
     core: {
@@ -16069,44 +16057,44 @@ CABLES.exportedPatches || (CABLES.exportedPatches = {}), CABLES.exportedPatches.
       }
     }
   },
-  opsHash: "b4051a17443687a76b30bbfecf8ca2445aff6e71",
+  opsHash: "fb96d9d24569157ad2c5964f7f564e27cdfa0355",
   ui: {
     viewBox: {
-      x: -126.18131940022977,
-      y: -946.5699415098288,
-      w: 1966.3177698718273,
-      h: 1268.8894358704135
+      x: -1303.61173853014,
+      y: -1037.0993123594585,
+      w: 1286.3055653823606,
+      h: 1103.3109003175803
     },
     timeLineLength: 20,
     bookmarks: [],
     subPatchViewBoxes: [{
-      x: -200,
-      y: -200,
-      w: 400,
-      h: 400
+      x: 120.7189781528541,
+      y: 267.12244824894697,
+      w: 1504.3810711905523,
+      h: 1290.3621649048766
     }],
     renderer: {
-      w: 316,
-      h: 563,
+      w: 633,
+      h: 356,
       s: 1
     }
   },
   updatedByUser: "GruppoTre",
-  views: 8,
+  views: 9,
   cachedNumComments: 0,
   cachedNumFavs: 0,
   statsAdmin: {
-    filenameScreenshots: ["_screenshots/screenshot.png", "_screenshots/screenshot.webp", "_screenshots/screenshot_1608614163951.png", "_screenshots/screenshot_1608614311353.png", "_screenshots/screenshot_1608614431627.png", "_screenshots/screenshot_1608614522169.png", "_screenshots/screenshot_1608615876105.png", "_screenshots/screenshot_1609255166389.png", "_screenshots/screenshot_1609255485267.png", "_screenshots/screenshot_1609256719751.png", "_screenshots/screenshot_1609258661532.png", "_screenshots/screenshot_1609266051152.png", "_screenshots/screenshot_1609282750219.png", "_screenshots/screenshot_1609321940683.png", "_screenshots/screenshot_1609340046498.png", "_screenshots/screenshot_1609340057896.png", "_screenshots/screenshot_1609340220443.png", "_screenshots/screenshot_1609340363886.png", "_screenshots/screenshot_1609341237425.png", "_screenshots/screenshot_1609360213440.png", "_screenshots/screenshot_1609410435436.png", "_screenshots/screenshot_1609415759207.png", "_screenshots/screenshot_1609415781130.png", "_screenshots/screenshot_1609587851759.png", "_screenshots/screenshot_1609587916938.png", "_screenshots/screenshot_1609587928998.png", "_screenshots/screenshot_1609587940590.png", "_screenshots/screenshot_1609608817013.png", "_screenshots/screenshot_1609608858667.png", "_screenshots/screenshot_1609608862700.png", "_screenshots/screenshot_1609621882668.png", "_screenshots/screenshot_1609625923799.png", "_screenshots/screenshot_1609629340308.png", "_screenshots/screenshot_1609629447859.png", "_screenshots/screenshot_1609629701397.png", "_screenshots/screenshot_1609629910330.png", "_screenshots/screenshot_1609629985360.png", "_screenshots/screenshot_1609630447114.png", "_screenshots/screenshot_1609967792887.png", "_screenshots/screenshot_1610014844983.png", "_screenshots/screenshot_1610014888827.png", "_screenshots/screenshot_1610014909266.png", "_screenshots/screenshot_1610014934284.png", "_screenshots/screenshot_1610014939607.png", "_screenshots/screenshot_1610015091366.png", "_screenshots/screenshot_1610203981988.png", "_screenshots/screenshot_1610204141071.png", "_screenshots/screenshot_1610204207445.png", "_screenshots/screenshot_1610204214908.png", "_screenshots/screenshot_1610213939911.png", "_screenshots/screenshot_1610214698720.png", "_screenshots/screenshot_1610242887665.png", "_screenshots/screenshot_1610243022359.png", "_screenshots/screenshot_1610243024126.png", "_screenshots/screenshot_1610243099043.png", "_screenshots/screenshot_1610320017329.png", "_screenshots/screenshot_1610320308115.png", "_screenshots/screenshot_1610320759502.png", "_screenshots/screenshot_1610321539002.png", "_screenshots/screenshot_1610321564025.png", "_screenshots/screenshot_1610321907521.png", "_screenshots/screenshot_1610322015746.png", "_screenshots/screenshot_1610322065515.png", "_screenshots/screenshot_1610322130632.png", "_screenshots/screenshot_1610322146631.png", "_screenshots/screenshot_1610322166646.png", "_screenshots/screenshot_1610444693361.png", "_screenshots/screenshot_1610450003408.png", "_screenshots/screenshot_1610450844930.png", "_screenshots/screenshot_1610451165716.png", "_screenshots/screenshot_1610458160838.png", "_screenshots/screenshot_1610459579980.png", "_screenshots/screenshot_1610459810585.png", "_screenshots/screenshot_1610460426820.png", "_screenshots/screenshot_1610460476242.png", "_screenshots/screenshot_1610460819971.png", "_screenshots/screenshot_1610466804515.png", "_screenshots/screenshot_1610531388472.png", "_screenshots/screenshot_1610641905122.png", "_screenshots/screenshot_1610643143667.png", "_screenshots/screenshot_1610643281598.png", "_screenshots/screenshot_1610643342110.png", "_screenshots/screenshot_1610643365993.png", "_screenshots/screenshot_1610644717303.png", "_screenshots/screenshot_1610644725637.png", "_screenshots/screenshot_1610644756670.png", "_screenshots/screenshot_1610656916171.png", "_screenshots/screenshot_1610657037836.png", "_screenshots/screenshot_1610657103387.png", "_screenshots/screenshot_1610657124463.png", "_screenshots/screenshot_1610657173862.png", "_screenshots/screenshot_1610658351413.png", "_screenshots/screenshot_1610658369956.png", "_screenshots/screenshot_1610658769477.png", "_screenshots/screenshot_1610658941151.png", "_screenshots/screenshot_1610704172049.png", "_screenshots/screenshot_1610704324783.png", "_screenshots/screenshot_1610704788137.png", "_screenshots/screenshot_1610709059104.png", "_screenshots/screenshot_1610720678890.png", "_screenshots/screenshot_1610751551192.png", "_screenshots/screenshot_1610890470429.png", "_screenshots/screenshot_1610890808780.png", "_screenshots/screenshot_1610891854812.png", "_screenshots/screenshot_1610893021883.png", "_screenshots/screenshot_1610897909568.png", "_screenshots/screenshot_1610897923379.png", "_screenshots/screenshot_1610898260648.png", "_screenshots/screenshot_1610899077544.png", "_screenshots/screenshot_1610899138864.png", "_screenshots/screenshot_1610899441562.png", "_screenshots/screenshot_1610900515336.png", "_screenshots/screenshot_1610900867381.png", "_screenshots/screenshot_1610900880520.png", "_screenshots/screenshot_1610900909516.png", "_screenshots/screenshot_1610903127502.png", "_screenshots/screenshot_1610903218597.png", "_screenshots/screenshot_1610903422315.png", "_screenshots/screenshot_1610904046664.png", "_screenshots/screenshot_1610905974643.png", "_screenshots/screenshot_1610906005007.png", "_screenshots/screenshot_1610979487203.png", "_screenshots/screenshot_1610979609435.png", "_screenshots/screenshot_1610980570346.png", "_screenshots/screenshot_1610980629918.png", "_screenshots/screenshot_1610980825212.png", "_screenshots/screenshot_1610980830271.png", "_screenshots/screenshot_1610980907973.png", "_screenshots/screenshot_1610980987511.png", "_screenshots/screenshot_1610981092587.png", "_screenshots/screenshot_1610982492078.png", "_screenshots/screenshot_1610982538793.png", "_screenshots/screenshot_1610982654913.png", "_screenshots/screenshot_1610982957084.png", "_screenshots/screenshot_1610983356884.png", "_screenshots/screenshot_1610983381561.png", "_screenshots/screenshot_1610983443865.png", "_screenshots/screenshot_1610984614148.png", "_screenshots/screenshot_1610984674137.png", "_screenshots/screenshot_1610984691113.png"],
-    filenameExports: ["_exports/cables_Protestars_21.zip", "_exports/cables_Protestars_210.zip", "_exports/cables_Protestars_211.zip", "_exports/cables_Protestars_212.zip", "_exports/cables_Protestars_213.zip", "_exports/cables_Protestars_214.zip", "_exports/cables_Protestars_215.zip", "_exports/cables_Protestars_216.zip", "_exports/cables_Protestars_217.zip", "_exports/cables_Protestars_218.zip", "_exports/cables_Protestars_219.zip", "_exports/cables_Protestars_22.zip", "_exports/cables_Protestars_220.zip", "_exports/cables_Protestars_221.zip", "_exports/cables_Protestars_222.zip", "_exports/cables_Protestars_223.zip", "_exports/cables_Protestars_224.zip", "_exports/cables_Protestars_225.zip", "_exports/cables_Protestars_226.zip", "_exports/cables_Protestars_227.zip", "_exports/cables_Protestars_228.zip", "_exports/cables_Protestars_229.zip", "_exports/cables_Protestars_23.zip", "_exports/cables_Protestars_230.zip", "_exports/cables_Protestars_24.zip", "_exports/cables_Protestars_25.zip", "_exports/cables_Protestars_26.zip", "_exports/cables_Protestars_27.zip", "_exports/cables_Protestars_28.zip", "_exports/cables_Protestars_29.zip"],
+    filenameScreenshots: ["_screenshots/screenshot.png", "_screenshots/screenshot.webp", "_screenshots/screenshot_1608614163951.png", "_screenshots/screenshot_1608614311353.png", "_screenshots/screenshot_1608614431627.png", "_screenshots/screenshot_1608614522169.png", "_screenshots/screenshot_1608615876105.png", "_screenshots/screenshot_1609255166389.png", "_screenshots/screenshot_1609255485267.png", "_screenshots/screenshot_1609256719751.png", "_screenshots/screenshot_1609258661532.png", "_screenshots/screenshot_1609266051152.png", "_screenshots/screenshot_1609282750219.png", "_screenshots/screenshot_1609321940683.png", "_screenshots/screenshot_1609340046498.png", "_screenshots/screenshot_1609340057896.png", "_screenshots/screenshot_1609340220443.png", "_screenshots/screenshot_1609340363886.png", "_screenshots/screenshot_1609341237425.png", "_screenshots/screenshot_1609360213440.png", "_screenshots/screenshot_1609410435436.png", "_screenshots/screenshot_1609415759207.png", "_screenshots/screenshot_1609415781130.png", "_screenshots/screenshot_1609587851759.png", "_screenshots/screenshot_1609587916938.png", "_screenshots/screenshot_1609587928998.png", "_screenshots/screenshot_1609587940590.png", "_screenshots/screenshot_1609608817013.png", "_screenshots/screenshot_1609608858667.png", "_screenshots/screenshot_1609608862700.png", "_screenshots/screenshot_1609621882668.png", "_screenshots/screenshot_1609625923799.png", "_screenshots/screenshot_1609629340308.png", "_screenshots/screenshot_1609629447859.png", "_screenshots/screenshot_1609629701397.png", "_screenshots/screenshot_1609629910330.png", "_screenshots/screenshot_1609629985360.png", "_screenshots/screenshot_1609630447114.png", "_screenshots/screenshot_1609967792887.png", "_screenshots/screenshot_1610014844983.png", "_screenshots/screenshot_1610014888827.png", "_screenshots/screenshot_1610014909266.png", "_screenshots/screenshot_1610014934284.png", "_screenshots/screenshot_1610014939607.png", "_screenshots/screenshot_1610015091366.png", "_screenshots/screenshot_1610203981988.png", "_screenshots/screenshot_1610204141071.png", "_screenshots/screenshot_1610204207445.png", "_screenshots/screenshot_1610204214908.png", "_screenshots/screenshot_1610213939911.png", "_screenshots/screenshot_1610214698720.png", "_screenshots/screenshot_1610242887665.png", "_screenshots/screenshot_1610243022359.png", "_screenshots/screenshot_1610243024126.png", "_screenshots/screenshot_1610243099043.png", "_screenshots/screenshot_1610320017329.png", "_screenshots/screenshot_1610320308115.png", "_screenshots/screenshot_1610320759502.png", "_screenshots/screenshot_1610321539002.png", "_screenshots/screenshot_1610321564025.png", "_screenshots/screenshot_1610321907521.png", "_screenshots/screenshot_1610322015746.png", "_screenshots/screenshot_1610322065515.png", "_screenshots/screenshot_1610322130632.png", "_screenshots/screenshot_1610322146631.png", "_screenshots/screenshot_1610322166646.png", "_screenshots/screenshot_1610444693361.png", "_screenshots/screenshot_1610450003408.png", "_screenshots/screenshot_1610450844930.png", "_screenshots/screenshot_1610451165716.png", "_screenshots/screenshot_1610458160838.png", "_screenshots/screenshot_1610459579980.png", "_screenshots/screenshot_1610459810585.png", "_screenshots/screenshot_1610460426820.png", "_screenshots/screenshot_1610460476242.png", "_screenshots/screenshot_1610460819971.png", "_screenshots/screenshot_1610466804515.png", "_screenshots/screenshot_1610531388472.png", "_screenshots/screenshot_1610641905122.png", "_screenshots/screenshot_1610643143667.png", "_screenshots/screenshot_1610643281598.png", "_screenshots/screenshot_1610643342110.png", "_screenshots/screenshot_1610643365993.png", "_screenshots/screenshot_1610644717303.png", "_screenshots/screenshot_1610644725637.png", "_screenshots/screenshot_1610644756670.png", "_screenshots/screenshot_1610656916171.png", "_screenshots/screenshot_1610657037836.png", "_screenshots/screenshot_1610657103387.png", "_screenshots/screenshot_1610657124463.png", "_screenshots/screenshot_1610657173862.png", "_screenshots/screenshot_1610658351413.png", "_screenshots/screenshot_1610658369956.png", "_screenshots/screenshot_1610658769477.png", "_screenshots/screenshot_1610658941151.png", "_screenshots/screenshot_1610704172049.png", "_screenshots/screenshot_1610704324783.png", "_screenshots/screenshot_1610704788137.png", "_screenshots/screenshot_1610709059104.png", "_screenshots/screenshot_1610720678890.png", "_screenshots/screenshot_1610751551192.png", "_screenshots/screenshot_1610890470429.png", "_screenshots/screenshot_1610890808780.png", "_screenshots/screenshot_1610891854812.png", "_screenshots/screenshot_1610893021883.png", "_screenshots/screenshot_1610897909568.png", "_screenshots/screenshot_1610897923379.png", "_screenshots/screenshot_1610898260648.png", "_screenshots/screenshot_1610899077544.png", "_screenshots/screenshot_1610899138864.png", "_screenshots/screenshot_1610899441562.png", "_screenshots/screenshot_1610900515336.png", "_screenshots/screenshot_1610900867381.png", "_screenshots/screenshot_1610900880520.png", "_screenshots/screenshot_1610900909516.png", "_screenshots/screenshot_1610903127502.png", "_screenshots/screenshot_1610903218597.png", "_screenshots/screenshot_1610903422315.png", "_screenshots/screenshot_1610904046664.png", "_screenshots/screenshot_1610905974643.png", "_screenshots/screenshot_1610906005007.png", "_screenshots/screenshot_1610979487203.png", "_screenshots/screenshot_1610979609435.png", "_screenshots/screenshot_1610980570346.png", "_screenshots/screenshot_1610980629918.png", "_screenshots/screenshot_1610980825212.png", "_screenshots/screenshot_1610980830271.png", "_screenshots/screenshot_1610980907973.png", "_screenshots/screenshot_1610980987511.png", "_screenshots/screenshot_1610981092587.png", "_screenshots/screenshot_1610982492078.png", "_screenshots/screenshot_1610982538793.png", "_screenshots/screenshot_1610982654913.png", "_screenshots/screenshot_1610982957084.png", "_screenshots/screenshot_1610983356884.png", "_screenshots/screenshot_1610983381561.png", "_screenshots/screenshot_1610983443865.png", "_screenshots/screenshot_1610984614148.png", "_screenshots/screenshot_1610984674137.png", "_screenshots/screenshot_1610984691113.png", "_screenshots/screenshot_1610988215680.png", "_screenshots/screenshot_1610988261946.png", "_screenshots/screenshot_1610988272357.png", "_screenshots/screenshot_1611009987264.png", "_screenshots/screenshot_1611010020240.png", "_screenshots/screenshot_1611355839587.png", "_screenshots/screenshot_1611715125959.png", "_screenshots/screenshot_1611715140970.png", "_screenshots/screenshot_1611715285976.png"],
+    filenameExports: ["_exports/cables_Protestars_21.zip", "_exports/cables_Protestars_210.zip", "_exports/cables_Protestars_211.zip", "_exports/cables_Protestars_212.zip", "_exports/cables_Protestars_213.zip", "_exports/cables_Protestars_214.zip", "_exports/cables_Protestars_215.zip", "_exports/cables_Protestars_216.zip", "_exports/cables_Protestars_217.zip", "_exports/cables_Protestars_218.zip", "_exports/cables_Protestars_219.zip", "_exports/cables_Protestars_22.zip", "_exports/cables_Protestars_220.zip", "_exports/cables_Protestars_221.zip", "_exports/cables_Protestars_222.zip", "_exports/cables_Protestars_223.zip", "_exports/cables_Protestars_224.zip", "_exports/cables_Protestars_225.zip", "_exports/cables_Protestars_226.zip", "_exports/cables_Protestars_227.zip", "_exports/cables_Protestars_228.zip", "_exports/cables_Protestars_229.zip", "_exports/cables_Protestars_23.zip", "_exports/cables_Protestars_230.zip", "_exports/cables_Protestars_231.zip", "_exports/cables_Protestars_232.zip", "_exports/cables_Protestars_233.zip", "_exports/cables_Protestars_234.zip", "_exports/cables_Protestars_24.zip", "_exports/cables_Protestars_25.zip", "_exports/cables_Protestars_26.zip", "_exports/cables_Protestars_27.zip", "_exports/cables_Protestars_28.zip", "_exports/cables_Protestars_29.zip"],
     filenameAssets: ["Icona-piattaforma.png", "Logo.png", "Logo_mobile.png", "ProximaNova-Regular.otf", "protestars1.jpg", "protestars10.jpg", "protestars11.jpg", "protestars12.jpg", "protestars13.jpg", "protestars14.jpg", "protestars15.jpg", "protestars2.jpg", "protestars3.jpg", "protestars4.jpg", "protestars5.jpg", "protestars6.jpg", "protestars7.jpg", "protestars8.jpg", "protestars9.jpg"],
     hasOldScreenshots: !1,
     hasOldExports: !1,
-    sizeScreenshots: 27941.693359375,
-    sizeExports: 181183.91796875,
+    sizeScreenshots: 29218.8876953125,
+    sizeExports: 182905.314453125,
     sizeAssets: 43466.5732421875
   },
   cachedUsername: "GruppoTre",
-  exports: 34
+  exports: 35
 }, CABLES.exportedPatch || (CABLES.exportedPatch = CABLES.exportedPatches.EQqT8q);
 var CABLES = CABLES || {};
 CABLES.OPS = CABLES.OPS || {};
@@ -16567,9 +16555,9 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     let S = 0;
     const P = vec3.create(),
       M = vec3.create(),
-      C = vec3.create(),
-      _ = mat4.create();
-    mat4.identity(_);
+      _ = vec3.create(),
+      C = mat4.create();
+    mat4.identity(C);
     const T = [],
       L = vec3.create(),
       k = mat4.create();
@@ -16577,7 +16565,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     let y = !0;
     t.onTriggered = function() {
       if (j.frameStore.shadowPass) return a.trigger();
-      S = i.get() ? j.getViewPort()[2] / j.getViewPort()[3] : l.get(), x.set(S), j.pushViewMatrix(), y && (mat4.identity(k), vec3.set(L, m.get(), g.get(), v.get()), 0 === m.get() && 0 === g.get() && 0 === v.get() || mat4.translate(k, k, L), 0 !== h.get() && mat4.rotateX(k, k, h.get() * CGL.DEG2RAD), 0 !== O.get() && mat4.rotateY(k, k, O.get() * CGL.DEG2RAD), 0 !== I.get() && mat4.rotateZ(k, k, I.get() * CGL.DEG2RAD), y = !1), mat4.multiply(j.vMatrix, j.vMatrix, k), j.pushPMatrix(), j.pushViewMatrix(), "prespective" == n.get() ? mat4.perspective(j.pMatrix, .0174533 * s.get(), S, o.get(), r.get()) : "ortogonal" == n.get() && mat4.ortho(j.pMatrix, s.get() / 14 * -1, s.get() / 14 * 1, s.get() / 14 * -1 / S, s.get() / 14 * 1 / S, o.get(), r.get()), T[0] = u.get(), T[1] = c.get(), T[2] = b.get(), T[3] = d.get(), T[4] = p.get(), T[5] = f.get(), T[6] = 0, T[7] = 1, T[8] = 0, A.set(null), A.set(T), vec3.set(P, 0, 1, 0), vec3.set(M, u.get(), c.get(), b.get()), vec3.set(C, d.get(), p.get(), f.get()), mat4.lookAt(_, M, C, P), mat4.multiply(j.vMatrix, j.vMatrix, _), a.trigger(), j.popViewMatrix(), j.popPMatrix(), j.popViewMatrix(), e.isCurrentUiOp() && gui.setTransformGizmo({
+      S = i.get() ? j.getViewPort()[2] / j.getViewPort()[3] : l.get(), x.set(S), j.pushViewMatrix(), y && (mat4.identity(k), vec3.set(L, m.get(), g.get(), v.get()), 0 === m.get() && 0 === g.get() && 0 === v.get() || mat4.translate(k, k, L), 0 !== h.get() && mat4.rotateX(k, k, h.get() * CGL.DEG2RAD), 0 !== O.get() && mat4.rotateY(k, k, O.get() * CGL.DEG2RAD), 0 !== I.get() && mat4.rotateZ(k, k, I.get() * CGL.DEG2RAD), y = !1), mat4.multiply(j.vMatrix, j.vMatrix, k), j.pushPMatrix(), j.pushViewMatrix(), "prespective" == n.get() ? mat4.perspective(j.pMatrix, .0174533 * s.get(), S, o.get(), r.get()) : "ortogonal" == n.get() && mat4.ortho(j.pMatrix, s.get() / 14 * -1, s.get() / 14 * 1, s.get() / 14 * -1 / S, s.get() / 14 * 1 / S, o.get(), r.get()), T[0] = u.get(), T[1] = c.get(), T[2] = b.get(), T[3] = d.get(), T[4] = p.get(), T[5] = f.get(), T[6] = 0, T[7] = 1, T[8] = 0, A.set(null), A.set(T), vec3.set(P, 0, 1, 0), vec3.set(M, u.get(), c.get(), b.get()), vec3.set(_, d.get(), p.get(), f.get()), mat4.lookAt(C, M, _, P), mat4.multiply(j.vMatrix, j.vMatrix, C), a.trigger(), j.popViewMatrix(), j.popPMatrix(), j.popViewMatrix(), e.isCurrentUiOp() && gui.setTransformGizmo({
         posX: m,
         posY: g,
         posZ: v
@@ -17055,14 +17043,14 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }), i.addUniformFrag("4f", "color", l, u, c, b);
     const d = e.inTexture("texture");
     let p = null;
-    d.onChange = _;
+    d.onChange = C;
     const f = e.inValueBool("colorizeTexture", !1),
       m = e.inTexture("textureOpacity");
     let g = null;
     const v = e.inSwitch("Alpha Mask Source", ["Luminance", "R", "G", "B", "A"], "Luminance");
     v.setUiAttribs({
       greyout: !0
-    }), m.onChange = C;
+    }), m.onChange = _;
     const h = e.inValueBool("Opacity TexCoords Transform", !1),
       O = e.inValueBool("Discard Transparent Pixels"),
       I = e.inValue("diffuseRepeatX", 1),
@@ -17077,7 +17065,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       i && (s.pushShader(i), i.popTextures(), p && d.get() && i.pushTexture(p, d.get().tex), g && m.get() && i.pushTexture(g, m.get().tex), o.trigger(), s.popShader())
     }
 
-    function C() {
+    function _() {
       if (m.get()) {
         if (null !== g) return;
         i.removeUniform("texOpacity"), i.define("HAS_TEXTURE_OPACITY"), g || (g = new CGL.Uniform(i, "t", "texOpacity")), v.setUiAttribs({
@@ -17093,7 +17081,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       T()
     }
 
-    function _() {
+    function C() {
       d.get() ? (i.hasDefine("HAS_TEXTURE_DIFFUSE") || i.define("HAS_TEXTURE_DIFFUSE"), p || (p = new CGL.Uniform(i, "t", "texDiffuse")), I.setUiAttribs({
         greyout: !1
       }), x.setUiAttribs({
@@ -17120,7 +17108,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     function T() {
       i.toggleDefine("CROP_TEXCOORDS", S.get()), i.toggleDefine("COLORIZE_TEXTURE", f.get()), i.toggleDefine("TRANSFORMALPHATEXCOORDS", h.get()), i.toggleDefine("DISCARDTRANS", O.get()), i.toggleDefine("BILLBOARD", P.get()), i.toggleDefine("ALPHA_MASK_ALPHA", "A" == v.get()), i.toggleDefine("ALPHA_MASK_LUMI", "Luminance" == v.get()), i.toggleDefine("ALPHA_MASK_R", "R" == v.get()), i.toggleDefine("ALPHA_MASK_G", "G" == v.get()), i.toggleDefine("ALPHA_MASK_B", "B" == v.get())
     }
-    v.onChange = P.onChange = O.onChange = h.onChange = S.onChange = f.onChange = T, e.setPortGroup("Color", [l, u, c, b]), e.setPortGroup("Color Texture", [d, f]), e.setPortGroup("Opacity", [m, v, O, h]), e.setPortGroup("Texture Transform", [I, x, A, j, S]), C(), _(), e.preRender = function() {
+    v.onChange = P.onChange = O.onChange = h.onChange = S.onChange = f.onChange = T, e.setPortGroup("Color", [l, u, c, b]), e.setPortGroup("Color Texture", [d, f]), e.setPortGroup("Opacity", [m, v, O, h]), e.setPortGroup("Texture Transform", [I, x, A, j, S]), _(), C(), e.preRender = function() {
       i.bind(), M()
     }
   }, Ops.Gl.Shader.BasicMaterial_v3.prototype = new CABLES.Op, CABLES.OPS["ec55d252-3843-41b1-b731-0482dbd9e72b"] = {
@@ -17163,12 +17151,12 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         j = Math.round(i.get()),
         S = e / j,
         P = t / A;
-      let M, C, _;
-      for (_ = u.get(), C = 0; C <= A; C++)
-        for (M = 0; M <= j; M++) g.push(M * S - n.get() / 2 + a), "xz" == _ && g.push(0), g.push(C * P - o.get() / 2 + c), "xy" == _ && g.push(0), v.push(M / j), v.push(1 - C / A), "xz" == _ ? (h.push(0, 1, 0), O.push(1, 0, 0), I.push(0, 0, 1)) : "xy" == _ && (h.push(0, 0, 1), O.push(-1, 0, 0), I.push(0, -1, 0));
+      let M, _, C;
+      for (C = u.get(), _ = 0; _ <= A; _++)
+        for (M = 0; M <= j; M++) g.push(M * S - n.get() / 2 + a), "xz" == C && g.push(0), g.push(_ * P - o.get() / 2 + c), "xy" == C && g.push(0), v.push(M / j), v.push(1 - _ / A), "xz" == C ? (h.push(0, 1, 0), O.push(1, 0, 0), I.push(0, 0, 1)) : "xy" == C && (h.push(0, 0, 1), O.push(-1, 0, 0), I.push(0, -1, 0));
       for (M = 0; M < j; M++)
-        for (C = 0; C < A; C++) {
-          const e = M + (j + 1) * C,
+        for (_ = 0; _ < A; _++) {
+          const e = M + (j + 1) * _,
             t = e,
             a = e + 1,
             n = e + j + 1,
@@ -17268,8 +17256,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     CABLES.OpTextureMeshCanvas = {};
     let P = 0;
     let M = null,
-      C = !0,
-      _ = !0;
+      _ = !0,
+      C = !0;
 
     function T() {
       const t = A;
@@ -17277,7 +17265,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         A = document.fonts.check('20px "' + s.get() + '"')
       } catch (t) {
         e.error(t)
-      }!t && A && (O.set(!0), _ = !0, C = !0), A || setTimeout(T, 250)
+      }!t && A && (O.set(!0), C = !0, _ = !0), A || setTimeout(T, 250)
     }
 
     function L() {
@@ -17294,13 +17282,13 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       }, CABLES.OpTextureMeshCanvas[S]
     }
     d.onChange = b.onChange = (() => {
-      L().texture = null, _ = !0
+      L().texture = null, C = !0
     }), f.onChange = p.onChange = function() {
       k.toggleDefine("DO_MULTEX", p.get()), k.toggleDefine("DO_MULTEX_MASK", f.get())
     }, g.set(null), s.onChange = function() {
-      _ = !0, C = !0, T()
+      C = !0, _ = !0, T()
     }, e.patch.on("fontLoaded", e => {
-      e == s.get() && (_ = !0, C = !0)
+      e == s.get() && (C = !0, _ = !0)
     }), l.onChange = function() {
       "Middle" == l.get() ? P = 0 : "Top" == l.get() ? P = 1 : "Bottom" == l.get() && (P = 2)
     }, e.onDelete = function() {
@@ -17333,7 +17321,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         s = [],
         l = [],
         b = [];
-      _ = !1;
+      C = !1;
       const d = mat4.create();
       let p = 0;
       for (let e = 0; e < a.length; e++) {
@@ -17351,7 +17339,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         for (f = 0; f < r; f++) {
           const r = o.substring(f, f + 1),
             i = t.chars[String(r)];
-          if (!i) return void(_ = !0);
+          if (!i) return void(C = !0);
           b.push(m / v * .99 + .005, .99 * (1 - e / (a.length - 1)) + .005), s.push(i.texCoordX, 1 - i.texCoordY - i.texCoordHeight), l.push(i.texCoordWidth, i.texCoordHeight), mat4.identity(d), mat4.translate(d, d, [m - g, 0 - e * u.get(), 0]), m += i.texCoordWidth / i.texCoordHeight + c.get(), p = Math.max(p, m - g), n.push(Array.prototype.slice.call(d)), 0
         }
       }
@@ -17364,7 +17352,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         instanced: !0
       }), M.setAttribute("attrTexPos", new Float32Array(b), 2, {
         instanced: !0
-      }), C = !1, _ && U()) : G = !0
+      }), _ = !1, C && U()) : G = !0
     }
 
     function F(e, t) {
@@ -17400,7 +17388,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       let a = String(o.get());
       null != a && void 0 != a || (a = "");
       for (let e = 0; e < a.length; e++) {
-        const n = a.substring(e, e + 1); - 1 == t.characters.indexOf(n) && (t.characters += n, _ = !0)
+        const n = a.substring(e, e + 1); - 1 == t.characters.indexOf(n) && (t.characters += n, C = !0)
       }
       const n = t.ctx;
       t.canvas.width = t.canvas.height = x, t.texture || (t.texture = CGL.Texture.createFromImage(I, t.canvas, {
@@ -17410,12 +17398,12 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       let r = t.fontSize + 40,
         s = F(r, !0);
       for (; !s.fits;) s = F(r -= 5, !0);
-      F(r, !1), n.restore(), t.texture.initTexture(t.canvas, e), t.texture.unpackAlpha = !0, g.set(t.texture), t.lastChange = CABLES.now(), C = !0, _ = !1
+      F(r, !1), n.restore(), t.texture.initTexture(t.canvas, e), t.texture.unpackAlpha = !0, g.set(t.texture), t.lastChange = CABLES.now(), _ = !0, C = !1
     }
     n.onTriggered = function() {
       j && (W(), j = !1);
       const e = L();
-      if (e.lastChange != R && (C = !0, R = e.lastChange), _ && U(), C && W(), M && M.numInstances > 0) {
+      if (e.lastChange != R && (_ = !0, R = e.lastChange), C && U(), _ && W(), M && M.numInstances > 0) {
         I.pushBlendMode(CGL.BLEND_NORMAL, !0), I.setShader(k), I.setTexture(0, g.get().tex);
         const e = p.get();
         e && I.setTexture(1, e.tex);
@@ -17424,7 +17412,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       }
       m.trigger()
     }, c.onChange = function() {
-      C = !0
+      _ = !0
     }
   }, Ops.Gl.Meshes.TextMesh_v2.prototype = new CABLES.Op, CABLES.OPS["2390f6b3-2122-412e-8c8d-5c2f574e8bd1"] = {
     f: Ops.Gl.Meshes.TextMesh_v2,
@@ -17609,8 +17597,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     });
     const M = e.patch.cgl;
     u.set("xy"), i.set("center"), l.set("center");
-    const C = new CGL.Geometry;
-    let _ = null,
+    const _ = new CGL.Geometry;
+    let C = null,
       T = null;
     mat4.create();
     const L = mat4.create(),
@@ -17644,7 +17632,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
             o = e + 1 + 1 + 1;
           d.push(t), d.push(n), d.push(a), d.push(a), d.push(n), d.push(o)
         }
-      C.clear(), C.vertices = s, C.texCoords = c, C.verticesIndices = d, C.vertexNormals = b, _ ? _.setGeom(C) : _ = new CGL.Mesh(M, C), m.set(null), m.set(C)
+      _.clear(), _.vertices = s, _.texCoords = c, _.verticesIndices = d, _.vertexNormals = b, C ? C.setGeom(_) : C = new CGL.Mesh(M, _), m.set(null), m.set(_)
     }
     t.onTriggered = function() {
       T || (! function() {
@@ -17656,7 +17644,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
           t.appendChild(T), F(), Q(), U(), X()
         }
         D(), P.set(T)
-      }(), te(), W(), Q()), D(), f.get() && b.get() && _ && _.render(M.getShader()), a.trigger()
+      }(), te(), W(), Q()), D(), f.get() && b.get() && C && C.render(M.getShader()), a.trigger()
     };
     let N = 0,
       V = 0,
@@ -17871,8 +17859,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     var P = I.canvas.width / 2,
       M = I.canvas.height / 2;
     j = P, S = M, b.set(P), d.set(M);
-    let C = 0,
-      _ = 0,
+    let _ = 0,
+      C = 0,
       T = 0,
       L = 0;
     D(), r.onChange = D;
@@ -17909,11 +17897,11 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
     }
 
     function R(e) {
-      C = 0, _ = 0, k = 100, v.set(!1), p.set(!1)
+      _ = 0, C = 0, k = 100, v.set(!1), p.set(!1)
     }
 
     function G(e) {
-      v.set(!0), a.get() ? (0 != C && 0 != _ && (T = e.offsetX - C, L = e.offsetY - _), C = e.offsetX, _ = e.offsetY, P += T, (M += L) > 460 && (M = 460)) : ("Document" != r.get() ? (T = e.offsetX, L = e.offsetY) : (T = e.clientX, L = e.clientY), l.get() ? (P = T, M = o.get() ? x.clientHeight - L : L) : o.get() ? A(T, x.clientHeight - L) : A(T, L))
+      v.set(!0), a.get() ? (0 != _ && 0 != C && (T = e.offsetX - _, L = e.offsetY - C), _ = e.offsetX, C = e.offsetY, P += T, (M += L) > 460 && (M = 460)) : ("Document" != r.get() ? (T = e.offsetX, L = e.offsetY) : (T = e.clientX, L = e.clientY), l.get() ? (P = T, M = o.get() ? x.clientHeight - L : L) : o.get() ? A(T, x.clientHeight - L) : A(T, L))
     }
 
     function W(e) {
@@ -18107,14 +18095,14 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
       S = "Microsoft Edge" === O.name,
       P = "Chrome" === O.name || "Chrome Mobile" === O.name,
       M = (O.layout, "Firefox" === O.name || "Firefox Mobile" === O.name || "Firefox for iOS" === O.name),
-      C = "Linux" === I || "Ubuntu" === I || "SuSE" === I || "Fedora" === I || "OpenBSD" === I || "Debian" === I || "Red Hat" === I,
-      _ = "Mac" === I || "Macintosh" === I || "Mac OS X" === I || "OS X" === I,
+      _ = "Linux" === I || "Ubuntu" === I || "SuSE" === I || "Fedora" === I || "OpenBSD" === I || "Debian" === I || "Red Hat" === I,
+      C = "Mac" === I || "Macintosh" === I || "Mac OS X" === I || "OS X" === I,
       T = "Windows" === I || "Windows 98;" === I,
       L = "Android" === I,
       k = "iOS" === I,
       y = "webOS" === I || "Windows Phone" === I || "Android" === I || "iOS" === I || "Chrome Mobile" === O.name || "Firefox for iOS" === O.name || "Firefox Mobile" === O.name || "IE Mobile" === O.name || "Opera Mobile" === O.name,
       E = "Electron" === O.name;
-    t.set(y), a.set(j), n.set(S), o.set(P), r.set(M), s.set(x), i.set(A), c.set(_), u.set(C), l.set(T), b.set(k), d.set(L), p.set(E), v.set(navigator.language || navigator.userLanguage), h.set(O.ua), g.set(O.os.version), f.set(O.os.toString()), m.set(O.name)
+    t.set(y), a.set(j), n.set(S), o.set(P), r.set(M), s.set(x), i.set(A), c.set(C), u.set(_), l.set(T), b.set(k), d.set(L), p.set(E), v.set(navigator.language || navigator.userLanguage), h.set(O.ua), g.set(O.os.version), f.set(O.os.toString()), m.set(O.name)
   }, Ops.Html.BrowserInfo_v3.prototype = new CABLES.Op, CABLES.OPS["ec3e0121-b2c2-4c31-bbda-a6982080f73f"] = {
     f: Ops.Html.BrowserInfo_v3,
     objName: "Ops.Html.BrowserInfo_v3"
@@ -18644,8 +18632,8 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         S = o ? "Object" : "RuntimeObject",
         P = /\bJava/.test(j) && n.java,
         M = P && p(n.environment) == A,
-        C = P ? "a" : "α",
-        _ = P ? "b" : "β",
+        _ = P ? "a" : "α",
+        C = P ? "b" : "β",
         T = n.document || {},
         L = n.operamini || n.opera,
         k = s.test(k = o && L ? L["[[Class]]"] : p(L)) ? k : L = null,
@@ -18869,7 +18857,7 @@ Ops.Gl = Ops.Gl || {}, Ops.Ui = Ops.Ui || {}, Ops.Anim = Ops.Anim || {}, Ops.Htm
         } else "object" == typeof n.process && !n.process.browser && (l = n.process) && ("object" == typeof l.versions && ("string" == typeof l.versions.electron ? (E.push("Node " + l.versions.node), R = "Electron", V = l.versions.electron) : "string" == typeof l.versions.nw && (E.push("Chromium " + V, "Node " + l.versions.node), R = "NW.js", V = l.versions.nw)), R || (R = "Node.js", y = l.arch, F = l.platform, V = (V = /[\d.]+/.exec(l.version)) ? V[0] : null));
         F = F && b(F)
       }
-      if (V && (l = /(?:[ab]|dp|pre|[ab]\d+pre)(?:\d+\+?)?$/i.exec(V) || /(?:alpha|beta)(?: ?\d)?/i.exec(a + ";" + (N && r.appMinorVersion)) || /\bMinefield\b/i.test(a) && "a") && (B = /b/i.test(l) ? "beta" : "alpha", V = V.replace(RegExp(l + "\\+?$"), "") + ("beta" == B ? _ : C) + (/\d+\+?/.exec(l) || "")), "Fennec" == R || "Firefox" == R && /\b(?:Android|Firefox OS|KaiOS)\b/.test(F)) R = "Firefox Mobile";
+      if (V && (l = /(?:[ab]|dp|pre|[ab]\d+pre)(?:\d+\+?)?$/i.exec(V) || /(?:alpha|beta)(?: ?\d)?/i.exec(a + ";" + (N && r.appMinorVersion)) || /\bMinefield\b/i.test(a) && "a") && (B = /b/i.test(l) ? "beta" : "alpha", V = V.replace(RegExp(l + "\\+?$"), "") + ("beta" == B ? C : _) + (/\d+\+?/.exec(l) || "")), "Fennec" == R || "Firefox" == R && /\b(?:Android|Firefox OS|KaiOS)\b/.test(F)) R = "Firefox Mobile";
       else if ("Maxthon" == R && V) V = V.replace(/\.[\d.]+/, ".x");
       else if (/\bXbox\b/i.test(G)) "Xbox 360" == G && (F = null), "Xbox 360" == G && /\bIEMobile\b/.test(a) && E.unshift("mobile mode");
       else if (!/^(?:Chrome|IE|Opera)$/.test(R) && (!R || G || /Browser|Mobi/.test(R)) || "Windows CE" != F && !/Mobi/i.test(a))
