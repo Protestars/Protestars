@@ -79,14 +79,10 @@
 
 @media (max-width: 600px){
 
-  .col-m-1 {width: 12.5%;}
-  .col-m-2 {width: 25%;}
-  .col-m-3 {width: 37.5%;}
-  .col-m-4 {width: 50%;}
-  .col-m-5 {width: 62.5%;}
-  .col-m-6 {width: 75%;}
-  .col-m-7 {width: 87.5%;}
-  .col-m-8 {width: 100%;}
+  .col-m-1 {width: 25%;}
+  .col-m-2 {width: 50%;}
+  .col-m-3 {width: 75%;}
+  .col-m-4 {width: 100%;}
 
   footer{
     display: none;
