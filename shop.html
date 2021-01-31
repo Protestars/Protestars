@@ -2,50 +2,56 @@
 <html>
 
 <head>
-  <title> Shop </title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/about_usstylesheet.css">
-  <link rel="icon" href="assets/Icona-piattaforma.png" type="image/png" sizes="101x102">
+  <meta charset="utf-8">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="newstylesheet_aboutshop.css">
+  <script>
+    function getPos(ev) {
+      document.querySelector('body').style.background = 'radial-gradient( circle at ' +
+        ev.clientX + 'px ' +
+        ev.clientY + 'px, ' +
+        'rgba( 231, 201, 226, 1) 0, ' +
+        'rgba( 187, 186, 222, 0.9 ) 60% )';
 
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
+    }
+    addEventListener('mousemove', getPos, false);
+  </script>
+</head>
 
 <body>
 
-  <!-- <video autoplay muted loop id="myVideo">
-  <source src="assets_aboutus/sfondo platform.mp4" type="video/mp4">
-  </video> -->
-
-
-  <div class="parent">
-
-    <a href="https://protestars.github.io/Protestars/" id="home">
-      HOME
-    </a>
-
-    <a href="About_us.html" id="linkadx">
-      ABOUT
-    </a>
-    <img id="logo" alt="protestars" src="assets_aboutus/Logo.png"></img>
-
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="link">HOME</a>
+    <a href="about.html" class="link">ABOUT</a>
+    <div class="wrapper">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="assets_aboutus/Logo-piattaforma_viola.png"></img>
+      </a>
+    </div>
   </div>
 
+  <div class="banner"> </div>
 
-  <div id="segnapostoimg">
-  </div>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h1 id="shop">shop our products</h1>
+        <div class="block"></div>
+        <p>Explore our latest official merchandising on limited stock! Get it now and become a protestar!
+        </p>
+      </div>
+      <div class="block"></div>
 
-  <div>
-    <h1> SHOP US </h1>
-    <p class="testo"> Explore our latest official merchandising on limited stock! Get it now and become a protestar!</p>
-  </div>
+  </section>
 
-  <div class="row">
-    <div class="column">
-      <div class="container">
-        <img class="top" src="assets_shopus/KIT SENZA MANICI.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/pattern giallo2.png" style="width:100%">
+  <div class="s-row">
+    <div class="s-column">
+      <div class="s-container">
+        <img class="top" src="assets_shop/kit-t.png" style="width:100%">
+        <img class="bottom" src="assets_shop/kit aperto.png" style="width:100%">
         <div class="top-left"> KIT </div>
         <!-- <div class="bottom-right"> BEST <br> SELLER </div> -->
       </div>
@@ -53,31 +59,63 @@
         <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
       </div>
 
-      <div class="container">
-        <img class="top" src="assets_shopus/SPECCHIETTO.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/specchietto 1.png" style="width:100%">
-        <div class="top-left"> BAG MIRROR </div>
+      <div class="s-container">
+        <img class="top" src="assets_shop/popsocket-t.png" style="width:100%">
+        <img class="bottom" src="assets_shop/popsocket-b.png" style="width:100%">
+        <div class="top-left"> POPSOCKET </div>
+        <!-- <div class="bottom-right"> NEW </div> -->
       </div>
       <div class="prezzo">
         <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
       </div>
+
+
 
     </div>
 
-    <div class="column">
+    <div class="s-column">
 
-      <div class="container">
-        <img class="top" src="assets_shopus/COLORI.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/pennarelli.png" style="width:100%">
-        <div class="top-left"> FACE PAINTING </div>
+      <div class="s-container">
+        <img class="top" src="assets_shop/COLORI.png" style="width:100%">
+        <img class="bottom" src="assets_shop/pennarelli.png" style="width:100%">
+        <div class="top-left"> PENNARELLI </div>
       </div>
       <div class="prezzo">
         <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
       </div>
 
-      <div class="container">
-        <img class="top" src="assets_shopus/COVER.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/cover +popsocket 4.png" style="width:100%">
+      <div class="s-container">
+        <img class="top" src="assets_shop/SPECCHIETTO.png" style="width:100%">
+        <img class="bottom" src="assets_shop/specchietto-b.png" style="width:100%">
+        <div class="top-left"> SPECCHIETTO </div>
+      </div>
+      <div class="prezzo">
+        <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
+      </div>
+
+
+
+    </div>
+
+    <div class="s-column">
+
+      <div class="s-container">
+        <img id="cambiototebag" class="top" src="assets_shop/tholo-t.png" style="width:100%">
+        <img id="cambiototebag-b" class="bottom" src="assets_shop/tholo-b2.png" style="width:100%">
+        <div class="top-left"> TOTE BAG </div>
+              <span class="dot" style="bottom: 15px; left: 20px;" onclick="changetotebag1()">1</span>
+              <span class="dot" style="bottom: 15px; left: 45px;" onclick="changetotebag2()">2</span>
+              <span class="dot" style="bottom: 15px; left: 70px;" onclick="changetotebag3()">3</span>
+              <span class="dot" style="bottom: 15px; left: 95px;" onclick="changetotebag4()">4</span>
+              <span class="dot" style="bottom: 15px; left: 120px;" onclick="changetotebag5()">5</span>
+      </div>
+      <div class="prezzo">
+        <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
+      </div>
+
+      <div class="s-container">
+        <img class="top" src="assets_shop/cover-t2.png" style="width:100%">
+        <img class="bottom" src="assets_shop/cover-b3.png" style="width:100%">
         <div class="top-left"> COVER </div>
       </div>
       <div class="prezzo">
@@ -86,88 +124,85 @@
 
     </div>
 
-    <div class="column">
-
-      <div class="container">
-        <img id="cambiototebag" class="top" src="assets_shopus/TOTEBAG LOGO.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/totebag 1.png" style="width:100%">
-        <div class="top-left"> TOTE BAG </div>
-        <div style="text-align:center">
-          <span class="dot" style="bottom: 15px; left: 20px; background-color:#fffcfd"
-          onclick="document.getElementById('cambiototebag').src='assets_shopus/TOTEBAG HOLO.png'"></span>
-          <span class="dot" style="bottom: 15px; left: 50px; background-color:#bbbade"
-          onclick="document.getElementById('cambiototebag').src='assets_shopus/TOTEBAG SHARE.png'"></span>
-          <span class="dot" style="bottom: 15px; left: 80px; background-color:#e7c9e2"></span>
-          <span class="dot" style="bottom: 15px; left: 110px; background-color:#fce6d5"></span>
-        </div>
-      </div>
-      <div class="prezzo">
-        <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
-      </div>
-
-      <div class="container">
-        <img class="top" src="assets_shopus/POPSOCKET.png" style="width:100%">
-        <img class="bottom" src="assets_shopus/cover +popsocket 4.png" style="width:100%">
-        <div class="top-left"> POP SOCKET </div>
-        <!-- <div class="bottom-right"> NEW </div> -->
-      </div>
-      <div class="prezzo">
-        <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
-      </div>
-    </div>
-
   </div>
 
-
   <footer>
-    <div class="footer">
-      <ul>
-        <li id="followus">
-          <a class="link">
-            follow us
-          </a>
-          <div class="social-wrapper">
-            <a href="https://instagram.com/protestars_official?igshid=n0wlh0hpn1k1https://instagram.com/protestars_official?igshid=n0wlh0hpn1k1">
-              <img class="iconesocial slide-in-top" src="assets_aboutus/instagram-logo.png" width="25px" height="25px"></img>
-            </a>
-            <a
-              href="https://www.tiktok.com/@protestars_official?_d=secCgYIASAHKAESMgow47L7pjKErt8SQzhVwj8P3Zp2yalldGuhGhDoQWBUy02qJ3OA4G1FN7uCq6%2FcQEEFGgA%3D&language=it&sec_uid=MS4wLjABAAAAG3ydAOUnZmqj4D0lLJcV4gvqSWSeDYgwulf-Llm3x0nJ5ufkvlHRw6iF3Lw3l6AE&sec_user_id=MS4wLjABAAAAG3ydAOUnZmqj4D0lLJcV4gvqSWSeDYgwulf-Llm3x0nJ5ufkvlHRw6iF3Lw3l6AE&share_app_name=musically&share_author_id=6915874203338851329&share_link_id=4b11635a-9c16-4814-87ee-fd03fb8b7986&timestamp=1610229706&u_code=dgd94bm5ihh916&user_id=6915874203338851329&utm_campaign=client_share&utm_medium=android&utm_source=whatsapp&source=h5_m">
-              <img class="iconesocial slide-in-top" src="assets_aboutus/tiktok-logo.png" width="25px" height="25spx"></img>
-            </a>
-          </div>
-        </li>
-        <img class="stellina" src="assets_aboutus/Iconcina.png" width="24px" height="24px"></img>
-        <li>
-          <a class="link" href="mailto:gruppotre.sintesi@gmail.com">
-            contact us
-          </a>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="three columns">
+        <a href="https://instagram.com/protestars_official?igshid=ct17mes0i72k">
+          <img src="assets_aboutus/instagram-logo.png" width="24px" height="24px"></img>
+        </a>
+        <a href="https://vm.tiktok.com/ZMJoMJ3nG/">
+          <img src="assets_aboutus/tiktok-logo.png" width="24px" height="24px"></img>
+        </a>
+      </div>
+
+      <div class="row">
+        <div class="five column" style="display:flex; justify-content: center;">
+          <a style="display: inline-block;" href="mailto:gruppotre.sintesi@gmail.com"> CONTACT US </a>
+          <p style="display: inline-block; padding-left: 5px; cursor: default;"> | TERMS OF USE | PRIVACY POLICY</p>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+          <a class="link" href="mailto:gruppotre.sintesi@gmail.com"> CONTACT US </a>
+          <a class="credits" href=""> Contact Us </a>
+          <a class="credits" href=""> Contact Us </a>
+          <a class="credits" href=""> Contact Us </a>
+      </div> -->
+
+      <div class="row">
+        <div class="five column">
+          <p>Protestars by MIRAGE.</p>
+          <p>© 2021 Protestars. All rights reserved.</p>
+        </div>
+      </div>
+
     </div>
-
-
-    <div class="footer2">
-      <br>
-      <p> powered by <span class="bold"> MIRAGE </span> </p>
-      <p> © 2021 Protestars. All rights reserved. </p>
-    </div>
-
   </footer>
 
-  <!-- <footer media="(max-width: 480px)">
-<ul style="list-style-type:none;">
-  <li>
-    <a>shop us</a>
-  </li>
-  <li>
-    <a>follow us</a>
-  </li>
-  <li>
-    <a>contact us</a>
-  </li>
-</ul>
-</footer> -->
 
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    var navbar = document.getElementById("myTopnav");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+    function changetotebag1() {
+      document.getElementById('cambiototebag').src = 'assets_shop/tholo-t.png';
+      document.getElementById('cambiototebag-b').src = 'assets_shop/tholo-b2.png';
+    }
+
+    function changetotebag2() {
+      document.getElementById('cambiototebag').src = 'assets_shop/tlogo-t.png';
+      document.getElementById('cambiototebag-b').src = 'assets_shop/tlogo-b2.png';
+    }
+
+    function changetotebag3() {
+      document.getElementById('cambiototebag').src = 'assets_shop/ttrace-t.png';
+      document.getElementById('cambiototebag-b').src = 'assets_shop/ttrace-b2.png';
+    }
+
+    function changetotebag4() {
+      document.getElementById('cambiototebag').src = 'assets_shop/tshare-t.png';
+      document.getElementById('cambiototebag-b').src = 'assets_shop/tshare-b2.png';
+    }
+
+    function changetotebag5() {
+      document.getElementById('cambiototebag').src = 'assets_shop/tshow-t.png';
+      document.getElementById('cambiototebag-b').src = 'assets_shop/tshow-b2.png';
+    }
+  </script>
 
 </body>
 
