@@ -20,18 +20,27 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at center, #fffcfd, transparent),
+  background:
+    radial-gradient(circle at center, #fffcfd, transparent),
+    radial-gradient(circle at left, #bbbade, transparent),
+    radial-gradient(circle at right, #e7c9e2, transparent),
+    radial-gradient(circle at bottom, #fce6d5, transparent);
+}
+
+#bodyabout {
+    background:
+    radial-gradient(circle at center, #fffcfd, transparent),
     radial-gradient(circle at left, #bbbade, transparent),
     radial-gradient(circle at right, #bbbade, transparent),
     radial-gradient(circle at bottom, #fce6d5, transparent);
 }
 
 #bodyshop {
-
-}
-
-#bodyabout {
-
+    background:
+    radial-gradient(circle at top, #e7c9e2, transparent),
+    radial-gradient(circle at left, #bbbade, transparent),
+    radial-gradient(circle at right, #bbbade, transparent),
+    radial-gradient(circle at bottom, #bbbade, transparent);
 }
 
 .topnav {
@@ -96,6 +105,18 @@ body {
   width: 100%;
 }
 
+#carrello {
+  cursor: pointer;
+  float:right;
+  right: 15px;
+  position:absolute;
+}
+
+#carrellomobile {
+  width:50px; height:50px; margin: 20px 10px; background-color: #7b7ab8; position:sticky; left: 480px; bottom: 20px;
+  display: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -103,12 +124,25 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
+  #carrellomobile {
+    display: block;
+  }
+
+  #carrello {
+    display:none;
+  }
+
+  .wrapper img {
+    margin-top: 3px;
+  }
+
   .topnav .link {
     float: left;
     display: block;
     color: #bbbade;
     text-align: center;
-    padding: 17px 20px;
+    padding: 17px 15px 17px 15px;
     text-decoration: none;
     font-size: 15px;
     vertical-align: middle;
@@ -333,6 +367,7 @@ h1 {
   cursor: default;
 }
 
+@media screen and (min-width: 600px) {
 #shop:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -369,6 +404,7 @@ h1 {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
+}
 }
 
 /* h1:hover:after {
@@ -514,7 +550,18 @@ footer .row {
   text-align: center;
 }
 
+@media screen and (max-width:600px){
+#contatto {
+  font-size:0.9rem;
+}
+footer p{
+  font-size: 0.9rem;
+}
+}
+
 .banner {
+  position:relative;
+  top: 50px;
   width: 100%;
   margin-bottom: 0;
   overflow: hidden;
@@ -529,6 +576,13 @@ footer .row {
    height: auto;
    margin:0;
    margin: 0;
+}
+
+#messaggio {
+  font-size: 1rem;
+  color: white;
+  padding: 12px 10px;
+  height: 30px;
 }
 
 .five {
@@ -633,24 +687,6 @@ footer .row {
   }
 }
 
-@media only screen and (max-height: 700px) {
-.title h1 {
-	font-size: 80px;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.title h1 {
-	font-size: 65px;
-}
-}
-
-@media only screen and (max-width: 766px) {
-.main_nav {
-	padding-top: 25px;
-}
-}
-
 div {
   font-family: "Proxima Nova";
 }
@@ -724,11 +760,14 @@ div {
   font-size: 1rem;
 }
 
+
+@media screen and (min-width: 600px){
 .prezzo:hover {
   background-color: #fce6d5;
   transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
   cursor: pointer;
+}
 }
 
 .s-container .top {

@@ -4,12 +4,12 @@
 <head>
   <title>Shop</title>
   <meta charset="utf-8">
-  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="script.js"></script>
-  <link rel="icon" href="assets/Icona-piattaforma.png" type="image/png" sizes="101x102">
   <link rel="stylesheet" type="text/css" href="newstylesheet_aboutshop.css">
+  <link rel="icon" href="assets/Icona-piattaforma.png" type="image/png" sizes="101x102">
   <script>
     function getPos(ev) {
       document.querySelector('body').style.background = 'radial-gradient( circle at ' +
@@ -26,18 +26,21 @@
 <body id="bodyshop">
 
   <div class="topnav" id="myTopnav">
-    <a href="index.html" class="link">HOME</a>
-    <a href="about.html" class="link">ABOUT</a>
+    <a href="#home" class="link">HOME</a>
+    <a href="index.html" class="link">ABOUT</a>
     <div class="wrapper">
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <img src="assets_aboutus/Logo-piattaforma_viola.png"></img>
+        <img src="assets_about/Logo-piattaforma_viola.png"></img>
       </a>
     </div>
+    <p class="link" id="carrello" onmouseover="display()" onmouseout="nascondi()"> BAG 0 </p>
+    <div id="messaggiodiv" style="background-color:#7b7ab8; color: #fffcfd; position:fixed; top: 60px; right: 10px; display: none;">
+    <p id="messaggio">Your cart is empty!</p> </div>
   </div>
 
   <div class="banner">
-    <img src="assets_shop/BANNER.png"></img>
-  </div>
+  <img src="assets_shop/BANNER.png"></img>
+ </div>
 
   <section id="about">
     <div class="container">
@@ -82,7 +85,7 @@
       <div class="s-container">
         <img class="top" src="assets_shop/COLORI.png" style="width:100%">
         <img class="bottom" src="assets_shop/pennarelli.png" style="width:100%">
-        <div class="top-left"> FACE PAINTING </div>
+        <div class="top-left"> PENNARELLI </div>
       </div>
       <div class="prezzo">
         <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
@@ -91,7 +94,7 @@
       <div class="s-container">
         <img class="top" src="assets_shop/SPECCHIETTO.png" style="width:100%">
         <img class="bottom" src="assets_shop/specchietto-b.png" style="width:100%">
-        <div class="top-left"> BAG MIRROR </div>
+        <div class="top-left"> SPECCHIETTO </div>
       </div>
       <div class="prezzo">
         <p class="prezzop" onmouseover="this.innerHTML='SOLD OUT'" onmouseout="this.innerHTML='ADD TO CART'">ADD TO CART</p>
@@ -130,20 +133,24 @@
 
   </div>
 
+  <div id="carrellomobile">
+    <p style="font-size: 1rem; color: white; padding: 15px 20px;">0</p>
+  </div>
+
   <footer>
     <div class="container">
       <div class="three columns">
         <a href="https://instagram.com/protestars_official?igshid=ct17mes0i72k">
-          <img src="assets_aboutus/instagram-logo.png" width="24px" height="24px"></img>
+          <img src="assets_about/instagram-logo.png" width="24px" height="24px"></img>
         </a>
         <a href="https://vm.tiktok.com/ZMJoMJ3nG/">
-          <img src="assets_aboutus/tiktok-logo.png" width="24px" height="24px"></img>
+          <img src="assets_about/tiktok-logo.png" width="24px" height="24px"></img>
         </a>
       </div>
 
       <div class="row">
         <div class="five column" style="display:flex; justify-content: center;">
-          <a style="display: inline-block;" href="mailto:gruppotre.sintesi@gmail.com"> CONTACT US </a>
+          <a style="display: inline-block;" id="contatto" href="mailto:gruppotre.sintesi@gmail.com"> CONTACT US </a>
           <p style="display: inline-block; padding-left: 5px; cursor: default;"> | TERMS OF USE | PRIVACY POLICY</p>
         </div>
       </div>
@@ -157,7 +164,7 @@
 
       <div class="row">
         <div class="five column">
-          <p>Protestars by MIRAGE.</p>
+          <p>Protestars by <b>MIRAGE.</b></p>
           <p>© 2021 Protestars. All rights reserved.</p>
         </div>
       </div>
@@ -205,6 +212,14 @@
     function changetotebag5() {
       document.getElementById('cambiototebag').src = 'assets_shop/tshow-t.png';
       document.getElementById('cambiototebag-b').src = 'assets_shop/tshow-b2.png';
+    }
+
+    function display(){
+      document.getElementById('messaggiodiv').style.display = "inline";
+    }
+
+    function nascondi(){
+      document.getElementById('messaggiodiv').style.display = "none";
     }
   </script>
 
